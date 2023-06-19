@@ -17,6 +17,10 @@
 				"Android",
 				"HoloLens"
 			]
+		},
+		{
+			"Name": "GeometryScripting",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
