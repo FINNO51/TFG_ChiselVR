@@ -7,7 +7,13 @@
 			"files": [
 				"C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
 				"C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/VRTemplate/Maps/VRTemplateMap.umap",
-				"C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/Experimentando/BP_Wall.uasset"
+				"C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/Experimentando/BP_Wall.uasset",
+				"C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/Meshes/StaticMesh_LEFT.uasset",
+				"C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/Characters/MannequinsXR/Meshes/SKM_MannyXR_left_Physics.uasset",
+				"C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/Experimentando/Collision_Hands.uasset",
+				"C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/VRTemplate/Blueprints/VRPawn.uasset",
+				"C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/Characters/MannequinsXR/Meshes/SKM_MannyXR_left_Physics2.uasset",
+				"C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/Characters/MannequinsXR/Meshes/SKM_MannyXR_left.uasset"
 			]
 		}
 	]
