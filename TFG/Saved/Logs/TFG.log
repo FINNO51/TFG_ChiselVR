@@ -2099,3 +2099,31 @@ Scale3D: 1.000000 1.000000 1.000000
 [2023.07.07-18.35.23:420][866]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto3
 [2023.07.07-18.35.23:420][866]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/VRPawn_Auto3FC7E8A654FFBDF9F74F88D852CE5BB89.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto3.uasset'
 [2023.07.07-18.35.23:421][866]LogFileHelpers: Auto-saving content packages took 0.149
+[2023.07.07-18.48.28:695][226]BlueprintLog: New page: Compilar VRPawn
+[2023.07.07-18.48.28:811][226]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.07.07-18.48.28:954][227]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.07-18.48.32:057][588]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.07.07-18.48.32:065][588]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.07-18.48.32:138][588]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.07.07-18.48.32:164][588]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2023.07.07-18.48.32:164][588]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/VRTemplateMap09FD5F30409161250DBB289D22F52FE2.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2023.07.07-18.48.32:191][588]LogFileHelpers: ¡No hay cambios que guardar!
+[2023.07.07-18.48.32:191][588]LogFileHelpers: Saving map 'VRTemplateMap' took 0.090
+[2023.07.07-18.48.32:192][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experimentando/BP_Wall" FILE="C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/Experimentando/BP_Wall.uasset" SILENT=true
+[2023.07.07-18.48.32:204][588]LogSavePackage: Moving output files for package: /Game/Experimentando/BP_Wall
+[2023.07.07-18.48.32:204][588]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/BP_WallA973F61147998EFA86FFFDBC443D0E98.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/Experimentando/BP_Wall.uasset'
+[2023.07.07-18.48.32:255][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/VRPawn" FILE="C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/VRTemplate/Blueprints/VRPawn.uasset" SILENT=true
+[2023.07.07-18.48.32:329][588]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2023.07.07-18.48.32:330][588]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/VRPawn984B1EDA4D3D913A02F96EAEFB957DAF.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2023.07.07-18.48.32:335][588]LogFileHelpers: InternalPromptForCheckoutAndSave took 269 ms (total: 511 ms)
+[2023.07.07-18.48.32:352][588]AssetCheck: New page: Asset Save: multiple assets
+[2023.07.07-18.48.32:352][588]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2023.07.07-18.48.32:352][588]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Experimentando/BP_Wall.BP_Wall
+[2023.07.07-18.48.32:352][588]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2023.07.07-18.48.33:373][705]LogSlate: Window 'BP_Wall' being destroyed
+[2023.07.07-18.48.33:378][705]LogSlate: Window 'BP_Wall' being destroyed
+[2023.07.07-18.48.33:387][705]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.07.07-18.48.33:387][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.07-18.48.33:829][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.07.07-18.48.33:829][705]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.07.07-18.48.33:829][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
