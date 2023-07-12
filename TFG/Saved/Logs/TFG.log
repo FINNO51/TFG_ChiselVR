@@ -2714,3 +2714,1420 @@ Make sure 'BP_Wall_C' has been compiled for  Obtener Resto1
 [2023.07.12-17.23.27:991][325]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 682 ms)
 [2023.07.12-17.23.28:007][325]AssetCheck: New page: Asset Save: VRPawn
 [2023.07.12-17.23.28:007][325]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2023.07.12-17.23.58:356][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.07.12-17.23.59:344][930]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.12-17.23.59:416][930]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Experimentando/Collision_Hands.Collision_Hands
+	Asset Type: Blueprint
+[2023.07.12-17.23.59:953][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.07.12-17.24.00:029][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.07.12-17.24.00:062][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.07.12-17.24.00:094][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.07.12-17.24.11:592][267]LogContentBrowser: Deferred new asset file creation: BP_Wall1
+[2023.07.12-17.24.11:603][267]LogContentBrowser: Creating deferred item: BP_Wall1
+[2023.07.12-17.24.11:618][268]LogContentBrowser: Renaming the item being created (Deferred Item: BP_Wall1).
+[2023.07.12-17.24.17:163][934]LogContentBrowser: Attempting asset rename: BP_Wall1 -> BP_Debri
+[2023.07.12-17.24.17:204][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.07.12-17.24.17:216][934]LogContentBrowser: End creating deferred item BP_Wall1
+[2023.07.12-17.24.18:757][114]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Experimentando/BP_Debri.BP_Debri
+[2023.07.12-17.24.18:758][114]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-17.24.50:779][808]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_16:PersistentLevel.BP_Debri_C_0.DynamicMeshComponent'' but it has ComplexAsSimple collision.
+[2023.07.12-17.24.50:784][808]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_16:PersistentLevel.BP_Debri_C_0.DynamicMeshComponent'' but it has ComplexAsSimple collision.
+[2023.07.12-17.24.50:787][808]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_16:PersistentLevel.BP_Debri_C_0.DynamicMeshComponent'' but it has ComplexAsSimple collision.
+[2023.07.12-17.24.50:789][808]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_16:PersistentLevel.BP_Debri_C_0.DynamicMeshComponent'' but it has ComplexAsSimple collision.
+[2023.07.12-17.24.50:806][808]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_16:PersistentLevel.BP_Debri_C_0.DynamicMeshComponent'' but it has ComplexAsSimple collision.
+[2023.07.12-17.24.54:390][234]BlueprintLog: New page: Compilar BP_Debri
+[2023.07.12-17.24.54:456][234]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.07.12-17.26.04:208][449]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.12-17.26.04:208][449]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.12-17.26.04:208][449]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.12-17.31.16:839][370]BlueprintLog: New page: Compilar VRPawn
+[2023.07.12-17.31.16:842][370]LogBlueprint: Error: [AssetLog] C:\Users\jordi\Documents\Unreal Projects\TFG_Unreal\TFG\Content\VRTemplate\Blueprints\VRPawn.uasset: [Compiler] Cannot construct objects of type '/Game/Experimentando/BP_Debri.BP_Debri_C' in  Construct Object from Class
+[2023.07.12-17.31.16:842][370]LogBlueprint: Error: [AssetLog] C:\Users\jordi\Documents\Unreal Projects\TFG_Unreal\TFG\Content\VRTemplate\Blueprints\VRPawn.uasset: [Compiler] Cannot construct objects of type '/Game/Experimentando/BP_Debri.BP_Debri_C' in  Construct Object from Class
+[2023.07.12-17.31.16:965][370]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.07.12-17.32.15:915][231]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.12-17.32.15:943][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experimentando/BP_Debri" FILE="C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/Experimentando/BP_Debri.uasset" SILENT=true
+[2023.07.12-17.32.15:946][231]LogSavePackage: Moving output files for package: /Game/Experimentando/BP_Debri
+[2023.07.12-17.32.15:946][231]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/BP_Debri5D5C235C4FE680B9AC6D898D9B0EFAD4.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/Experimentando/BP_Debri.uasset'
+[2023.07.12-17.32.15:954][231]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 721 ms)
+[2023.07.12-17.32.15:964][231]AssetCheck: New page: Asset Save: BP_Debri
+[2023.07.12-17.32.15:964][231]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Experimentando/BP_Debri.BP_Debri
+[2023.07.12-17.32.21:817][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.07.12-17.32.21:821][892]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.047
+[2023.07.12-17.32.21:822][892]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/VRTemplate/Blueprints/VRPawn] ([2] browsable assets)...
+[2023.07.12-17.32.21:827][892]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn]
+[2023.07.12-17.32.21:827][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRTemplate/Blueprints/VRPawn]
+[2023.07.12-17.32.21:913][892]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto8
+[2023.07.12-17.32.21:913][892]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/VRPawn_Auto817135957465AC9E6B401149458654E79.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto8.uasset'
+[2023.07.12-17.32.21:914][892]LogFileHelpers: Auto-saving content packages took 0.092
+[2023.07.12-17.32.24:757][212]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Experimentando/BP_Debri.BP_Debri_C
+[2023.07.12-17.32.24:758][212]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Experimentando/BP_Debri.BP_Debri_C
+[2023.07.12-17.32.24:759][212]LogActorFactory: Actor Factory spawned Blueprint /Game/Experimentando/BP_Debri.BP_Debri as actor: BP_Debri_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_Debri_C_0
+[2023.07.12-17.32.24:760][212]LogActorFactory: Actor Factory spawned Blueprint /Game/Experimentando/BP_Debri.BP_Debri as actor: BP_Debri_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_Debri_C_0
+[2023.07.12-17.32.24:762][212]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.07.12-17.32.25:454][287]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Experimentando/BP_Debri.BP_Debri_C
+[2023.07.12-17.32.25:454][287]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Experimentando/BP_Debri.BP_Debri_C
+[2023.07.12-17.32.25:455][287]LogActorFactory: Actor Factory spawned Blueprint /Game/Experimentando/BP_Debri.BP_Debri as actor: BP_Debri_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_Debri_C_1
+[2023.07.12-17.32.25:455][287]LogActorFactory: Actor Factory spawned Blueprint /Game/Experimentando/BP_Debri.BP_Debri as actor: BP_Debri_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_Debri_C_1
+[2023.07.12-17.32.28:219][592]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Experimentando/BP_Debri.BP_Debri_C
+[2023.07.12-17.32.28:219][592]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Experimentando/BP_Debri.BP_Debri_C
+[2023.07.12-17.32.28:219][592]LogActorFactory: Actor Factory spawned Blueprint /Game/Experimentando/BP_Debri.BP_Debri as actor: BP_Debri_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_Debri_C_2
+[2023.07.12-17.32.28:219][592]LogActorFactory: Actor Factory spawned Blueprint /Game/Experimentando/BP_Debri.BP_Debri as actor: BP_Debri_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_Debri_C_2
+[2023.07.12-17.32.28:564][630]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Experimentando/BP_Debri.BP_Debri_C
+[2023.07.12-17.32.28:564][630]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Experimentando/BP_Debri.BP_Debri_C
+[2023.07.12-17.32.28:565][630]LogActorFactory: Actor Factory spawned Blueprint /Game/Experimentando/BP_Debri.BP_Debri as actor: BP_Debri_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_Debri_C_3
+[2023.07.12-17.32.28:565][630]LogActorFactory: Actor Factory spawned Blueprint /Game/Experimentando/BP_Debri.BP_Debri as actor: BP_Debri_C /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.BP_Debri_C_3
+[2023.07.12-17.35.31:407][438]LogEditorTransaction: Undo Rename Actor
+[2023.07.12-17.35.32:302][502]LogEditorTransaction: Undo Pinchar en los actores
+[2023.07.12-17.35.34:313][738]LogEditorTransaction: Undo Crear actores
+[2023.07.12-17.35.35:261][845]LogEditorTransaction: Undo Crear actores
+[2023.07.12-17.35.35:713][860]LogEditorTransaction: Undo Delete current selection
+[2023.07.12-17.35.36:657][932]LogEditorTransaction: Undo Crear enlace del Pin
+[2023.07.12-17.35.37:614][  6]LogEditorTransaction: Undo Delete current selection
+[2023.07.12-17.37.44:941][665]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-17.37.44:941][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-17.38.45:520][387]BlueprintLog: New page: Compilar VRPawn
+[2023.07.12-17.38.45:652][387]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.07.12-17.38.53:067][231]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.07.12-17.38.53:071][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-17.38.53:071][231]PIE: New page: Sesión PIE (reproducción en el editor): VRTemplateMap (12 jul. 2023 21:38:53)
+[2023.07.12-17.38.53:072][231]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-17.38.53:096][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024512s)
+[2023.07.12-17.38.53:096][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.024540s)
+[2023.07.12-17.38.53:096][231]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-17.38.53:097][231]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.07.12-17.38.53:097][231]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2023.07.12-17.38.53:134][231]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.07.12-17.38.53:144][231]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.07.12-17.38.53:145][231]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.12-17.38.53:145][231]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.12-17.38.53:145][231]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.12-17.38.53:145][231]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.12-17.38.53:145][231]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.12-17.38.53:145][231]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.12-17.38.53:145][231]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.12-17.38.53:145][231]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.12-17.38.53:145][231]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.07.12-17.38.53:145][231]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.07.12-17.38.53:145][231]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.12-17.38.53:147][231]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.12-17.38.53:185][231]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Logitech G733 Gaming Headset)
+[2023.07.12-17.38.53:185][231]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.12-17.38.53:185][231]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.12-17.38.53:185][231]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.12-17.38.53:186][231]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.07.12-17.38.53:186][231]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=19
+[2023.07.12-17.38.53:187][231]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.07.12-17.38.53:188][231]LogInit: FAudioDevice initialized.
+[2023.07.12-17.38.53:188][231]LogAudio: Display: Audio Device (ID: 19) registered with world 'VRTemplateMap'.
+[2023.07.12-17.38.53:188][231]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.07.12-17.38.53:203][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-17.38.54:229][231]LogLoad: Game class is 'VRGameMode_C'
+[2023.07.12-17.38.54:235][231]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.07.12-19.38.54
+[2023.07.12-17.38.54:235][231]LogWorld: Bringing up level for play took: 0.005717
+[2023.07.12-17.38.54:238][231]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2023.07.12-17.38.54:240][231]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.07.12-17.38.54:243][231]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.07.12-17.38.54:244][231]Cmd: vr.PixelDensity 0.7
+[2023.07.12-17.38.54:244][231]vr.PixelDensity = "0.7"
+[2023.07.12-17.38.54:255][231]PIE: El servidor ha iniciado la sesión
+[2023.07.12-17.38.54:261][231]PIE: Play in editor total start time 1,19 seconds.
+[2023.07.12-17.38.54:396][231]LogViewport: Scene viewport resized to 3192x1776, mode Windowed.
+[2023.07.12-17.38.54:424][231]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.07.12-17.38.54:445][231]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.07.12-17.39.28:606][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-17.39.28:606][272]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-17.39.28:670][272]LogSlate: Window 'TFG Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR SteamVR/OpenXR (1.26.5)' being destroyed
+[2023.07.12-17.39.28:672][272]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-17.39.28:672][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-17.39.28:675][272]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.12-17.39.28:682][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-17.39.28:718][272]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.12-17.39.28:718][272]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.07.12-17.39.28:718][272]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.07.12-17.39.28:720][272]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.07.12-17.39.28:725][272]LogSlate: Slate User Unregistered.  User Index 8
+[2023.07.12-17.39.28:725][272]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.07.12-17.39.28:727][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.07.12-17.39.28:766][273]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2023.07.12-17.39.44:241][109]BlueprintLog: New page: Compilar VRPawn
+[2023.07.12-17.39.44:351][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.07.12-17.39.45:865][247]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.07.12-17.39.45:870][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-17.39.45:870][247]PIE: New page: Sesión PIE (reproducción en el editor): VRTemplateMap (12 jul. 2023 21:39:45)
+[2023.07.12-17.39.45:870][247]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-17.39.45:894][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023862s)
+[2023.07.12-17.39.45:894][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.023885s)
+[2023.07.12-17.39.45:894][247]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-17.39.45:894][247]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.07.12-17.39.45:894][247]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2023.07.12-17.39.45:933][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.07.12-17.39.45:948][247]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.07.12-17.39.45:948][247]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.12-17.39.45:948][247]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.12-17.39.45:948][247]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.12-17.39.45:948][247]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.12-17.39.45:948][247]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.12-17.39.45:948][247]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.12-17.39.45:948][247]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.12-17.39.45:948][247]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.12-17.39.45:948][247]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.07.12-17.39.45:948][247]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.07.12-17.39.45:948][247]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.12-17.39.45:950][247]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.12-17.39.45:988][247]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Logitech G733 Gaming Headset)
+[2023.07.12-17.39.45:989][247]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.12-17.39.45:989][247]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.12-17.39.45:989][247]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.12-17.39.45:989][247]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.07.12-17.39.45:989][247]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=20
+[2023.07.12-17.39.45:990][247]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.07.12-17.39.45:990][247]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.07.12-17.39.45:990][247]LogInit: FAudioDevice initialized.
+[2023.07.12-17.39.45:990][247]LogAudio: Display: Audio Device (ID: 20) registered with world 'VRTemplateMap'.
+[2023.07.12-17.39.46:009][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-17.39.46:535][247]LogLoad: Game class is 'VRGameMode_C'
+[2023.07.12-17.39.46:540][247]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.07.12-19.39.46
+[2023.07.12-17.39.46:540][247]LogWorld: Bringing up level for play took: 0.004821
+[2023.07.12-17.39.46:542][247]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2023.07.12-17.39.46:545][247]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.07.12-17.39.46:548][247]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.07.12-17.39.46:549][247]Cmd: vr.PixelDensity 0.7
+[2023.07.12-17.39.46:549][247]vr.PixelDensity = "0.7"
+[2023.07.12-17.39.46:559][247]PIE: El servidor ha iniciado la sesión
+[2023.07.12-17.39.46:563][247]PIE: Play in editor total start time 0,694 seconds.
+[2023.07.12-17.39.46:646][247]LogViewport: Scene viewport resized to 3192x1776, mode Windowed.
+[2023.07.12-17.39.46:680][247]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.07.12-17.39.46:700][247]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.07.12-17.40.36:277][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-17.40.36:277][932]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-17.40.36:345][932]LogSlate: Window 'TFG Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR SteamVR/OpenXR (1.26.5)' being destroyed
+[2023.07.12-17.40.36:347][932]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-17.40.36:348][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-17.40.36:350][932]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.12-17.40.36:357][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-17.40.36:394][932]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.12-17.40.36:395][932]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.07.12-17.40.36:395][932]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.07.12-17.40.36:396][932]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.07.12-17.40.36:402][932]LogSlate: Slate User Unregistered.  User Index 8
+[2023.07.12-17.40.36:402][932]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.07.12-17.40.36:404][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.07.12-17.40.36:445][933]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2023.07.12-17.43.48:185][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.07.12-17.43.48:191][269]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.045
+[2023.07.12-17.43.48:191][269]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/VRTemplate/Blueprints/VRPawn] ([2] browsable assets)...
+[2023.07.12-17.43.48:223][269]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn]
+[2023.07.12-17.43.48:223][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRTemplate/Blueprints/VRPawn]
+[2023.07.12-17.43.48:313][269]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto9
+[2023.07.12-17.43.48:313][269]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/VRPawn_Auto98F13F3D542795C5D008E30B57098C8E1.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto9.uasset'
+[2023.07.12-17.43.48:314][269]LogFileHelpers: Auto-saving content packages took 0.123
+[2023.07.12-17.51.48:977][190]Cmd: TRANSACTION UNDO
+[2023.07.12-17.51.48:977][190]LogEditorTransaction: Undo Change Parameter Type
+[2023.07.12-17.52.14:952][ 65]LogShaderCompilers: Display: ================================================
+[2023.07.12-17.52.14:952][ 65]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.07.12-17.52.14:952][ 65]LogShaderCompilers: Display: Total job queries 153, among them cache hits 32 (20.92%)
+[2023.07.12-17.52.14:952][ 65]LogShaderCompilers: Display: Tracking 121 distinct input hashes that result in 83 distinct outputs (68.60%)
+[2023.07.12-17.52.14:952][ 65]LogShaderCompilers: Display: RAM used: 1.28 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.16%
+[2023.07.12-17.52.14:952][ 65]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.07.12-17.52.14:952][ 65]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.07.12-17.52.14:953][ 65]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.07.12-17.52.14:953][ 65]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.07.12-17.52.14:953][ 65]LogShaderCompilers: Display: ================================================
+[2023.07.12-17.52.52:513][477]LogStaticMesh: Display: Generando la malla estática SM_Chair...
+[2023.07.12-17.52.52:530][477]LogStaticMesh: Adjacency [0.00s], tris: 1782, UVs 1
+[2023.07.12-17.52.52:535][477]LogStaticMesh: Clustering [0.01s]. Ratio: 1.000000
+[2023.07.12-17.52.52:536][477]LogStaticMesh: Leaves [0.00s]
+[2023.07.12-17.52.52:617][483]LogStaticMesh: Reduce [0.08s]
+[2023.07.12-17.52.52:660][488]LogStaticMesh: Fallback 0/1 [0.04s], num tris: 816
+[2023.07.12-17.52.52:662][488]LogStaticMesh: ConstrainClusters:
+[2023.07.12-17.52.52:662][488]LogStaticMesh:   Input: 28 Clusters, 3546 Triangles and 3486 Vertices
+[2023.07.12-17.52.52:662][488]LogStaticMesh:   Output without splits: 28 Clusters, 3546 Triangles and 3532 Vertices
+[2023.07.12-17.52.52:662][488]LogStaticMesh:   Output with splits: 28 Clusters, 3546 Triangles and 3532 Vertices
+[2023.07.12-17.52.52:662][488]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 28, Slow Path Clusters: 0, 1 Material: 28, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.07.12-17.52.52:663][488]LogStaticMesh: WritePages:
+[2023.07.12-17.52.52:663][488]LogStaticMesh:   Root: GPU size: 31740 bytes. 1 Pages. 31740.000 bytes per page (96.863% utilization).
+[2023.07.12-17.52.52:663][488]LogStaticMesh:   Streaming: GPU size: 13804 bytes. 1 Pages (1 with relative encoding). 13804.000 bytes per page (10.532% utilization).
+[2023.07.12-17.52.52:663][488]LogStaticMesh:   Page data disk size: 36096 bytes. Fixup data size: 256 bytes.
+[2023.07.12-17.52.52:663][488]LogStaticMesh:   Total GPU size: 45544 bytes, Total disk size: 36352 bytes.
+[2023.07.12-17.52.52:663][488]LogStaticMesh: Encode [0.00s]
+[2023.07.12-17.52.52:663][488]LogStaticMesh: Nanite build [0.13s]
+
+[2023.07.12-17.52.52:669][489]LogStaticMesh: Built static mesh [0.16s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-17.53.24:909][315]BlueprintLog: New page: Compilar VRPawn
+[2023.07.12-17.53.25:037][315]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.07.12-17.53.37:547][740]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-17.53.37:548][740]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-17.53.37:548][740]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_0
+[2023.07.12-17.53.38:892][857]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-17.53.38:893][857]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-17.53.38:894][857]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair as actor: StaticMeshActor /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.StaticMeshActor_1
+[2023.07.12-17.53.38:954][858]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-17.53.43:650][351]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.07.12-17.53.43:654][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-17.53.43:655][351]PIE: New page: Sesión PIE (reproducción en el editor): VRTemplateMap (12 jul. 2023 21:53:43)
+[2023.07.12-17.53.43:655][351]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-17.53.43:679][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024413s)
+[2023.07.12-17.53.43:679][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.024439s)
+[2023.07.12-17.53.43:679][351]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-17.53.43:679][351]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.07.12-17.53.43:680][351]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2023.07.12-17.53.43:718][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.07.12-17.53.43:730][351]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.07.12-17.53.43:730][351]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.12-17.53.43:730][351]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.12-17.53.43:730][351]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.12-17.53.43:730][351]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.12-17.53.43:730][351]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.12-17.53.43:730][351]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.12-17.53.43:730][351]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.12-17.53.43:730][351]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.12-17.53.43:731][351]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.07.12-17.53.43:731][351]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.07.12-17.53.43:731][351]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.12-17.53.43:733][351]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.12-17.53.43:773][351]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Logitech G733 Gaming Headset)
+[2023.07.12-17.53.43:774][351]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.12-17.53.43:774][351]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.12-17.53.43:774][351]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.12-17.53.43:775][351]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.07.12-17.53.43:775][351]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=21
+[2023.07.12-17.53.43:776][351]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.07.12-17.53.43:776][351]LogInit: FAudioDevice initialized.
+[2023.07.12-17.53.43:776][351]LogAudio: Display: Audio Device (ID: 21) registered with world 'VRTemplateMap'.
+[2023.07.12-17.53.43:776][351]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.07.12-17.53.43:793][351]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-17.53.45:321][351]LogLoad: Game class is 'VRGameMode_C'
+[2023.07.12-17.53.45:327][351]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.07.12-19.53.45
+[2023.07.12-17.53.45:327][351]LogWorld: Bringing up level for play took: 0.005749
+[2023.07.12-17.53.45:330][351]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2023.07.12-17.53.45:333][351]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.07.12-17.53.45:335][351]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.07.12-17.53.45:335][351]Cmd: vr.PixelDensity 0.7
+[2023.07.12-17.53.45:336][351]vr.PixelDensity = "0.7"
+[2023.07.12-17.53.45:345][351]PIE: El servidor ha iniciado la sesión
+[2023.07.12-17.53.45:350][351]PIE: Play in editor total start time 1,696 seconds.
+[2023.07.12-17.53.45:527][351]LogViewport: Scene viewport resized to 3192x1776, mode Windowed.
+[2023.07.12-17.53.45:568][351]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.07.12-17.53.45:587][351]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.07.12-17.53.45:603][352]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.07.12-17.53.59:960][ 26]LogStaticMesh: Display: Generando la malla estática SM_Chair...
+[2023.07.12-17.53.59:962][ 26]LogStaticMesh: Adjacency [0.00s], tris: 618, UVs 1
+[2023.07.12-17.53.59:963][ 26]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.07.12-17.53.59:963][ 26]LogStaticMesh: Leaves [0.00s]
+[2023.07.12-17.53.59:977][ 26]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Props/SM_Chair) ...
+[2023.07.12-17.53.59:993][ 26]LogStaticMesh: Reduce [0.03s]
+[2023.07.12-17.53.59:994][ 26]LogStaticMesh: Fallback 0/1 [0.00s], num tris: 252
+[2023.07.12-17.53.59:995][ 26]LogStaticMesh: ConstrainClusters:
+[2023.07.12-17.53.59:995][ 26]LogStaticMesh:   Input: 11 Clusters, 1374 Triangles and 1328 Vertices
+[2023.07.12-17.53.59:995][ 26]LogStaticMesh:   Output without splits: 11 Clusters, 1374 Triangles and 1339 Vertices
+[2023.07.12-17.53.59:995][ 26]LogStaticMesh:   Output with splits: 11 Clusters, 1374 Triangles and 1339 Vertices
+[2023.07.12-17.53.59:995][ 26]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 11, Slow Path Clusters: 0, 1 Material: 11, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.07.12-17.53.59:995][ 26]LogStaticMesh: WritePages:
+[2023.07.12-17.53.59:995][ 26]LogStaticMesh:   Root: GPU size: 15868 bytes. 1 Pages. 15868.000 bytes per page (48.425% utilization).
+[2023.07.12-17.53.59:995][ 26]LogStaticMesh:   Streaming: 0 bytes.
+[2023.07.12-17.53.59:995][ 26]LogStaticMesh:   Page data disk size: 11272 bytes. Fixup data size: 72 bytes.
+[2023.07.12-17.53.59:995][ 26]LogStaticMesh:   Total GPU size: 15868 bytes, Total disk size: 11344 bytes.
+[2023.07.12-17.53.59:995][ 26]LogStaticMesh: Encode [0.00s]
+[2023.07.12-17.53.59:995][ 26]LogStaticMesh: Nanite build [0.03s]
+
+[2023.07.12-17.53.59:997][ 26]LogStaticMesh: Built static mesh [0.04s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-17.54.10:268][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-17.54.10:268][253]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-17.54.10:296][253]LogSlate: Window 'TFG Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR SteamVR/OpenXR (1.26.5)' being destroyed
+[2023.07.12-17.54.10:298][253]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-17.54.10:299][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-17.54.10:301][253]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.12-17.54.10:308][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-17.54.10:343][253]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.12-17.54.10:344][253]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.07.12-17.54.10:344][253]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.07.12-17.54.10:345][253]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.07.12-17.54.10:351][253]LogSlate: Slate User Unregistered.  User Index 8
+[2023.07.12-17.54.10:351][253]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.07.12-17.54.10:353][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.07.12-17.54.10:396][254]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.07.12-17.54.10:439][255]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-17.54.35:286][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.07.12-17.54.35:316][187]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto0
+[2023.07.12-17.54.35:316][187]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/VRTemplateMap_Auto0A2B8EBDD4D7B891E483DA18A2ABFBA32.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto0.umap'
+[2023.07.12-17.54.35:324][187]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.074
+[2023.07.12-17.54.35:324][187]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.074
+[2023.07.12-17.54.35:325][187]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/VRTemplate/Blueprints/VRPawn] ([2] browsable assets)...
+[2023.07.12-17.54.35:331][187]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn]
+[2023.07.12-17.54.35:331][187]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRTemplate/Blueprints/VRPawn]
+[2023.07.12-17.54.35:420][187]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto0
+[2023.07.12-17.54.35:420][187]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/VRPawn_Auto0319C17E0431D45306EE0F283DC4509AE.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto0.uasset'
+[2023.07.12-17.54.35:421][187]LogFileHelpers: Auto-saving content packages took 0.097
+[2023.07.12-17.54.45:062][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-17.54.45:062][314]PIE: New page: Sesión SIE (simulación en el editor): VRTemplateMap (12 jul. 2023 21:54:45)
+[2023.07.12-17.54.45:063][314]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-17.54.45:092][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029241s)
+[2023.07.12-17.54.45:092][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.029270s)
+[2023.07.12-17.54.45:093][314]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-17.54.45:093][314]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.07.12-17.54.45:093][314]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2023.07.12-17.54.45:141][314]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.07.12-17.54.45:144][314]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.07.12-17.54.45:144][314]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.12-17.54.45:144][314]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.12-17.54.45:144][314]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.12-17.54.45:144][314]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.12-17.54.45:144][314]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.12-17.54.45:144][314]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.12-17.54.45:144][314]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.12-17.54.45:144][314]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.12-17.54.45:145][314]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.07.12-17.54.45:145][314]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.07.12-17.54.45:145][314]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.12-17.54.45:147][314]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.12-17.54.45:201][314]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Logitech G733 Gaming Headset)
+[2023.07.12-17.54.45:201][314]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.12-17.54.45:201][314]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.12-17.54.45:201][314]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.12-17.54.45:202][314]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.07.12-17.54.45:202][314]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=22
+[2023.07.12-17.54.45:203][314]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.07.12-17.54.45:203][314]LogInit: FAudioDevice initialized.
+[2023.07.12-17.54.45:203][314]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.07.12-17.54.45:203][314]LogAudio: Display: Audio Device (ID: 22) registered with world 'VRTemplateMap'.
+[2023.07.12-17.54.45:206][314]LogLoad: Game class is 'VRGameMode_C'
+[2023.07.12-17.54.45:212][314]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.07.12-19.54.45
+[2023.07.12-17.54.45:212][314]LogWorld: Bringing up level for play took: 0.005701
+[2023.07.12-17.54.45:213][314]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2023.07.12-17.54.45:215][314]PIE: El servidor ha iniciado la sesión
+[2023.07.12-17.54.45:216][314]PIE: Play in editor total start time 0,153 seconds.
+[2023.07.12-17.54.45:261][314]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.07.12-17.54.47:149][486]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-17.54.47:149][486]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-17.54.47:149][486]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-17.54.47:150][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-17.54.47:153][486]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.12-17.54.47:159][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-17.54.47:199][486]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-17.54.47:200][486]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.07.12-17.54.47:200][486]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.07.12-17.54.47:201][486]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.07.12-17.54.47:208][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.07.12-17.54.47:255][487]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.07.12-17.58.01:527][ 55]BlueprintLog: New page: Compilar VRPawn
+[2023.07.12-17.58.01:638][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2023.07.12-17.58.03:006][172]LogDebuggerCommands: Repeating last play command: Simulate
+[2023.07.12-17.58.03:012][172]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-17.58.03:012][172]PIE: New page: Sesión SIE (simulación en el editor): VRTemplateMap (12 jul. 2023 21:58:03)
+[2023.07.12-17.58.03:012][172]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-17.58.03:037][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024418s)
+[2023.07.12-17.58.03:037][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.024446s)
+[2023.07.12-17.58.03:037][172]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-17.58.03:037][172]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.07.12-17.58.03:038][172]LogPlayLevel: PIE: World Init took: (0.000651s)
+[2023.07.12-17.58.03:076][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.07.12-17.58.03:088][172]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.07.12-17.58.03:088][172]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.12-17.58.03:088][172]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.12-17.58.03:088][172]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.12-17.58.03:088][172]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.12-17.58.03:088][172]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.12-17.58.03:088][172]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.12-17.58.03:088][172]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.12-17.58.03:088][172]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.12-17.58.03:088][172]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.07.12-17.58.03:088][172]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.07.12-17.58.03:088][172]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.12-17.58.03:090][172]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.12-17.58.03:127][172]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Logitech G733 Gaming Headset)
+[2023.07.12-17.58.03:128][172]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.12-17.58.03:128][172]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.12-17.58.03:128][172]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.12-17.58.03:128][172]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.07.12-17.58.03:128][172]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=23
+[2023.07.12-17.58.03:129][172]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.07.12-17.58.03:129][172]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.07.12-17.58.03:129][172]LogInit: FAudioDevice initialized.
+[2023.07.12-17.58.03:129][172]LogAudio: Display: Audio Device (ID: 23) registered with world 'VRTemplateMap'.
+[2023.07.12-17.58.03:137][172]LogLoad: Game class is 'VRGameMode_C'
+[2023.07.12-17.58.03:142][172]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.07.12-19.58.03
+[2023.07.12-17.58.03:142][172]LogWorld: Bringing up level for play took: 0.004644
+[2023.07.12-17.58.03:143][172]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2023.07.12-17.58.03:144][172]PIE: El servidor ha iniciado la sesión
+[2023.07.12-17.58.03:145][172]PIE: Play in editor total start time 0,133 seconds.
+[2023.07.12-17.58.03:172][172]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.07.12-17.58.04:589][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-17.58.04:589][330]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-17.58.04:590][330]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-17.58.04:590][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-17.58.04:594][330]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.12-17.58.04:601][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-17.58.04:638][330]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.12-17.58.04:638][330]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.07.12-17.58.04:638][330]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.07.12-17.58.04:640][330]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.07.12-17.58.04:644][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-17.58.04:647][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.07.12-17.58.04:707][331]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2023.07.12-17.58.09:180][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-17.58.09:180][834]PIE: New page: Sesión PIE (reproducción en el editor): VRTemplateMap (12 jul. 2023 21:58:09)
+[2023.07.12-17.58.09:181][834]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-17.58.09:207][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026440s)
+[2023.07.12-17.58.09:207][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.026468s)
+[2023.07.12-17.58.09:207][834]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-17.58.09:208][834]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.07.12-17.58.09:208][834]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2023.07.12-17.58.09:251][834]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.07.12-17.58.09:256][834]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.07.12-17.58.09:256][834]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.12-17.58.09:256][834]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.12-17.58.09:256][834]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.12-17.58.09:257][834]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.12-17.58.09:257][834]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.12-17.58.09:257][834]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.12-17.58.09:257][834]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.12-17.58.09:257][834]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.12-17.58.09:257][834]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.07.12-17.58.09:257][834]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.07.12-17.58.09:257][834]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.12-17.58.09:259][834]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.12-17.58.09:298][834]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Logitech G733 Gaming Headset)
+[2023.07.12-17.58.09:298][834]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.12-17.58.09:298][834]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.12-17.58.09:298][834]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.12-17.58.09:299][834]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2023.07.12-17.58.09:299][834]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=24
+[2023.07.12-17.58.09:300][834]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2023.07.12-17.58.09:300][834]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2023.07.12-17.58.09:300][834]LogInit: FAudioDevice initialized.
+[2023.07.12-17.58.09:300][834]LogAudio: Display: Audio Device (ID: 24) registered with world 'VRTemplateMap'.
+[2023.07.12-17.58.09:317][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-17.58.09:845][834]LogLoad: Game class is 'VRGameMode_C'
+[2023.07.12-17.58.09:850][834]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.07.12-19.58.09
+[2023.07.12-17.58.09:850][834]LogWorld: Bringing up level for play took: 0.005546
+[2023.07.12-17.58.09:853][834]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2023.07.12-17.58.09:856][834]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.07.12-17.58.09:858][834]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.07.12-17.58.09:859][834]Cmd: vr.PixelDensity 0.7
+[2023.07.12-17.58.09:859][834]vr.PixelDensity = "0.7"
+[2023.07.12-17.58.09:869][834]PIE: El servidor ha iniciado la sesión
+[2023.07.12-17.58.09:875][834]PIE: Play in editor total start time 0,695 seconds.
+[2023.07.12-17.58.09:959][834]LogViewport: Scene viewport resized to 3192x1776, mode Windowed.
+[2023.07.12-17.58.09:990][834]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.07.12-17.58.10:010][834]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.07.12-17.58.27:654][906]LogStaticMesh: Display: Generando la malla estática SM_Chair...
+[2023.07.12-17.58.27:657][906]LogStaticMesh: Adjacency [0.00s], tris: 772, UVs 1
+[2023.07.12-17.58.27:658][906]LogStaticMesh: Clustering [0.00s]. Ratio: 1.285714
+[2023.07.12-17.58.27:658][906]LogStaticMesh: Leaves [0.00s]
+[2023.07.12-17.58.27:671][906]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Props/SM_Chair) ...
+[2023.07.12-17.58.27:697][906]LogStaticMesh: Reduce [0.04s]
+[2023.07.12-17.58.27:713][906]LogStaticMesh: Fallback 0/1 [0.02s], num tris: 256
+[2023.07.12-17.58.27:714][906]LogStaticMesh: ConstrainClusters:
+[2023.07.12-17.58.27:714][906]LogStaticMesh:   Input: 16 Clusters, 1654 Triangles and 1815 Vertices
+[2023.07.12-17.58.27:714][906]LogStaticMesh:   Output without splits: 16 Clusters, 1654 Triangles and 1818 Vertices
+[2023.07.12-17.58.27:714][906]LogStaticMesh:   Output with splits: 16 Clusters, 1654 Triangles and 1818 Vertices
+[2023.07.12-17.58.27:714][906]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 16, Slow Path Clusters: 0, 1 Material: 16, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.07.12-17.58.27:715][906]LogStaticMesh: WritePages:
+[2023.07.12-17.58.27:715][906]LogStaticMesh:   Root: GPU size: 21112 bytes. 1 Pages. 21112.000 bytes per page (64.429% utilization).
+[2023.07.12-17.58.27:715][906]LogStaticMesh:   Streaming: 0 bytes.
+[2023.07.12-17.58.27:715][906]LogStaticMesh:   Page data disk size: 15940 bytes. Fixup data size: 72 bytes.
+[2023.07.12-17.58.27:715][906]LogStaticMesh:   Total GPU size: 21112 bytes, Total disk size: 16012 bytes.
+[2023.07.12-17.58.27:715][906]LogStaticMesh: Encode [0.00s]
+[2023.07.12-17.58.27:715][906]LogStaticMesh: Nanite build [0.06s]
+
+[2023.07.12-17.58.27:716][906]LogStaticMesh: Built static mesh [0.06s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-17.58.27:756][907]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.07.12-17.58.48:598][404]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-17.58.48:598][404]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-17.58.48:643][404]LogSlate: Window 'TFG Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR SteamVR/OpenXR (1.26.5)' being destroyed
+[2023.07.12-17.58.48:645][404]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-17.58.48:646][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-17.58.48:648][404]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.12-17.58.48:656][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-17.58.48:698][404]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.12-17.58.48:698][404]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.07.12-17.58.48:698][404]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.07.12-17.58.48:699][404]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.07.12-17.58.48:705][404]LogSlate: Slate User Unregistered.  User Index 8
+[2023.07.12-17.58.48:705][404]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.07.12-17.58.48:707][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.07.12-17.58.48:753][405]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2023.07.12-18.03.17:490][792]BlueprintLog: New page: Compilar VRPawn
+[2023.07.12-18.03.17:603][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2023.07.12-18.03.18:900][902]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.07.12-18.03.18:905][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-18.03.18:905][902]PIE: New page: Sesión PIE (reproducción en el editor): VRTemplateMap (12 jul. 2023 22:03:18)
+[2023.07.12-18.03.18:905][902]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-18.03.18:929][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024232s)
+[2023.07.12-18.03.18:929][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.024258s)
+[2023.07.12-18.03.18:929][902]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-18.03.18:929][902]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.07.12-18.03.18:930][902]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2023.07.12-18.03.18:967][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.07.12-18.03.18:972][902]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2023.07.12-18.03.18:972][902]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.12-18.03.18:972][902]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.12-18.03.18:972][902]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.12-18.03.18:972][902]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.12-18.03.18:972][902]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.12-18.03.18:972][902]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.12-18.03.18:972][902]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.12-18.03.18:972][902]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.12-18.03.18:973][902]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.07.12-18.03.18:973][902]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.07.12-18.03.18:973][902]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.12-18.03.18:975][902]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.12-18.03.19:012][902]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Logitech G733 Gaming Headset)
+[2023.07.12-18.03.19:012][902]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.12-18.03.19:012][902]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.12-18.03.19:012][902]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.12-18.03.19:013][902]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2023.07.12-18.03.19:013][902]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=25
+[2023.07.12-18.03.19:014][902]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2023.07.12-18.03.19:014][902]LogInit: FAudioDevice initialized.
+[2023.07.12-18.03.19:014][902]LogAudio: Display: Audio Device (ID: 25) registered with world 'VRTemplateMap'.
+[2023.07.12-18.03.19:014][902]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2023.07.12-18.03.19:028][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-18.03.20:056][902]LogLoad: Game class is 'VRGameMode_C'
+[2023.07.12-18.03.20:062][902]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.07.12-20.03.20
+[2023.07.12-18.03.20:062][902]LogWorld: Bringing up level for play took: 0.005971
+[2023.07.12-18.03.20:065][902]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2023.07.12-18.03.20:068][902]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.07.12-18.03.20:070][902]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.07.12-18.03.20:071][902]Cmd: vr.PixelDensity 0.7
+[2023.07.12-18.03.20:071][902]vr.PixelDensity = "0.7"
+[2023.07.12-18.03.20:082][902]PIE: El servidor ha iniciado la sesión
+[2023.07.12-18.03.20:086][902]PIE: Play in editor total start time 1,182 seconds.
+[2023.07.12-18.03.20:218][902]LogViewport: Scene viewport resized to 3192x1776, mode Windowed.
+[2023.07.12-18.03.20:241][902]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.07.12-18.03.20:259][902]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.07.12-18.03.33:414][434]LogStaticMesh: Display: Generando la malla estática SM_Chair...
+[2023.07.12-18.03.33:417][434]LogStaticMesh: Adjacency [0.00s], tris: 948, UVs 1
+[2023.07.12-18.03.33:418][434]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.07.12-18.03.33:418][434]LogStaticMesh: Leaves [0.00s]
+[2023.07.12-18.03.33:431][434]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Props/SM_Chair) ...
+[2023.07.12-18.03.33:468][434]LogStaticMesh: Reduce [0.05s]
+[2023.07.12-18.03.33:480][434]LogStaticMesh: Fallback 0/1 [0.01s], num tris: 256
+[2023.07.12-18.03.33:481][434]LogStaticMesh: ConstrainClusters:
+[2023.07.12-18.03.33:481][434]LogStaticMesh:   Input: 15 Clusters, 1830 Triangles and 1913 Vertices
+[2023.07.12-18.03.33:481][434]LogStaticMesh:   Output without splits: 15 Clusters, 1830 Triangles and 1923 Vertices
+[2023.07.12-18.03.33:481][434]LogStaticMesh:   Output with splits: 15 Clusters, 1830 Triangles and 1923 Vertices
+[2023.07.12-18.03.33:481][434]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 15, Slow Path Clusters: 0, 1 Material: 15, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.07.12-18.03.33:481][434]LogStaticMesh: WritePages:
+[2023.07.12-18.03.33:481][434]LogStaticMesh:   Root: GPU size: 22516 bytes. 1 Pages. 22516.000 bytes per page (68.713% utilization).
+[2023.07.12-18.03.33:481][434]LogStaticMesh:   Streaming: 0 bytes.
+[2023.07.12-18.03.33:481][434]LogStaticMesh:   Page data disk size: 17324 bytes. Fixup data size: 72 bytes.
+[2023.07.12-18.03.33:481][434]LogStaticMesh:   Total GPU size: 22516 bytes, Total disk size: 17396 bytes.
+[2023.07.12-18.03.33:481][434]LogStaticMesh: Encode [0.00s]
+[2023.07.12-18.03.33:481][434]LogStaticMesh: Nanite build [0.06s]
+
+[2023.07.12-18.03.33:483][434]LogStaticMesh: Built static mesh [0.07s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-18.03.33:493][434]LogScript: Warning: Accessed None trying to read property Resto1
+	VRPawn_C /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap:PersistentLevel.VRPawn_C_0
+	Function /Game/VRTemplate/Blueprints/VRPawn.VRPawn_C:ExecuteUbergraph_VRPawn:2979
+[2023.07.12-18.03.33:493][434]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Resto1". Node:  Set Actor Location Graph:  EventGraph Function:  Execute Ubergraph VRPawn Blueprint:  VRPawn
+[2023.07.12-18.03.33:506][435]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.07.12-18.03.47:959][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-18.03.47:959][164]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-18.03.48:007][164]LogSlate: Window 'TFG Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR SteamVR/OpenXR (1.26.5)' being destroyed
+[2023.07.12-18.03.48:009][164]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-18.03.48:010][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-18.03.48:012][164]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.12-18.03.48:020][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-18.03.48:061][164]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.07.12-18.03.48:061][164]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.07.12-18.03.48:063][164]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.07.12-18.03.48:068][164]LogSlate: Slate User Unregistered.  User Index 8
+[2023.07.12-18.03.48:068][164]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.07.12-18.03.48:070][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.07.12-18.03.48:180][165]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2023.07.12-18.03.55:792][ 51]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.07.12-18.03.55:798][ 51]LogSlate: Window 'Registro del mensaje' being destroyed
+[2023.07.12-18.04.01:524][712]LogViewport: Scene viewport resized to 1096x693, mode Windowed.
+[2023.07.12-18.04.37:951][660]LogSlate: Window 'Delete Variable' being destroyed
+[2023.07.12-18.05.01:586][391]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-18.05.05:211][807]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-18.05.10:996][423]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-18.05.12:489][591]LogShaderCompilers: Display: ================================================
+[2023.07.12-18.05.12:489][591]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.07.12-18.05.12:489][591]LogShaderCompilers: Display: Total job queries 160, among them cache hits 32 (20.00%)
+[2023.07.12-18.05.12:489][591]LogShaderCompilers: Display: Tracking 128 distinct input hashes that result in 87 distinct outputs (67.97%)
+[2023.07.12-18.05.12:489][591]LogShaderCompilers: Display: RAM used: 1.37 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.17%
+[2023.07.12-18.05.12:489][591]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.07.12-18.05.12:489][591]LogShaderCompilers: Display: Shaders Compiled: 4
+[2023.07.12-18.05.12:489][591]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100.00%)
+[2023.07.12-18.05.12:489][591]LogShaderCompilers: Display: Average time worker was idle: 1.60 s
+[2023.07.12-18.05.12:489][591]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.11 s
+[2023.07.12-18.05.12:489][591]LogShaderCompilers: Display: Job execution time: average 1.97 s, max 3.27 s
+[2023.07.12-18.05.12:489][591]LogShaderCompilers: Display: Job life time (pending + execution): average 2.04 s, max 3.38
+[2023.07.12-18.05.12:489][591]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.69 s
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display: Average processing rate: 0.70 jobs/sec
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display: Total thread time: 5.85 s
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display: Total thread preprocess time: 0.14 s
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display: Percentage time preprocessing: 2.38%
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display: Effective parallelization: 1.03 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 2.42 sec, max 2.42 sec, min 2.42 sec)
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 2.39 sec, max 2.39 sec, min 2.39 sec)
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 41.32% of total time (compiled    1 times, average 2.42 sec, max 2.42 sec, min 2.42 sec)
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 40.86% of total time (compiled    1 times, average 2.39 sec, max 2.39 sec, min 2.39 sec)
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.26% of total time (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 8.56% of total time (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.07.12-18.05.12:490][591]LogShaderCompilers: Display: ================================================
+[2023.07.12-18.05.16:091][955]BlueprintLog: New page: Compilar BP_Wall
+[2023.07.12-18.05.16:279][955]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2023.07.12-18.05.16:485][956]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-18.05.34:401][936]BlueprintLog: New page: Compilar BP_Wall
+[2023.07.12-18.05.34:561][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.07.12-18.05.34:773][937]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-18.06.32:518][483]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-18.06.45:491][988]LogSlate: Window 'Delete Variable' being destroyed
+[2023.07.12-18.06.47:001][162]BlueprintLog: New page: Compilar BP_Wall
+[2023.07.12-18.06.47:222][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.07.12-18.06.47:375][163]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-18.08.22:131][986]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.12-18.08.22:131][986]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.12-18.08.22:131][986]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.12-18.09.11:186][684]Cmd: DELETE
+[2023.07.12-18.09.11:187][684]Cmd: ACTOR DELETE
+[2023.07.12-18.09.11:202][684]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.07.12-18.09.11:283][684]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.07.12-18.09.11:292][684]LogEditorActor: Deleted 1 Actors (0.102 secs)
+[2023.07.12-18.09.18:142][486]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Experimentando/BP_Debri.BP_Debri
+[2023.07.12-18.09.18:142][486]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-18.09.27:042][459]LogViewport: Scene viewport resized to 1134x693, mode Windowed.
+[2023.07.12-18.09.31:416][979]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-18.09.31:416][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-18.09.37:295][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.07.12-18.09.44:896][636]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.12-18.09.44:953][636]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Experimentando/BP_Debri.BP_Debri
+	Asset Type: Blueprint
+[2023.07.12-18.09.45:419][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.07.12-18.09.45:454][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.07.12-18.09.45:487][636]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.07.12-18.10.33:607][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.07.12-18.10.33:644][252]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto1
+[2023.07.12-18.10.33:645][252]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/VRTemplateMap_Auto1976231AE4F9E6E3B4E2442BFA1D2FAD3.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto1.umap'
+[2023.07.12-18.10.33:651][252]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.084
+[2023.07.12-18.10.33:652][252]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.084
+[2023.07.12-18.10.33:652][252]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Experimentando/BP_Wall] ([2] browsable assets)...
+[2023.07.12-18.10.33:652][252]OBJ SavePackage: Finished generating thumbnails for package [/Game/Experimentando/BP_Wall]
+[2023.07.12-18.10.33:657][252]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Experimentando/BP_Wall_Auto1
+[2023.07.12-18.10.33:657][252]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/BP_Wall_Auto1AEBD997942C4375496C1E1B8392AF1B9.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/Autosaves/Game/Experimentando/BP_Wall_Auto1.uasset'
+[2023.07.12-18.10.33:659][252]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/VRTemplate/Blueprints/VRPawn] ([2] browsable assets)...
+[2023.07.12-18.10.33:669][252]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn]
+[2023.07.12-18.10.33:669][252]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRTemplate/Blueprints/VRPawn]
+[2023.07.12-18.10.33:756][252]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto1
+[2023.07.12-18.10.33:757][252]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/VRPawn_Auto175723ADA4B021A4B38D633867EF7A59C.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto1.uasset'
+[2023.07.12-18.10.33:758][252]LogFileHelpers: Auto-saving content packages took 0.107
+[2023.07.12-18.15.17:990][873]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-18.15.20:537][160]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-18.15.30:108][260]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-18.15.38:561][154]BlueprintLog: New page: Compilar BP_Wall
+[2023.07.12-18.15.38:799][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2023.07.12-18.15.38:995][155]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-18.15.40:153][281]LogViewport: Scene viewport resized to 537x138, mode Windowed.
+[2023.07.12-18.15.51:571][472]LogViewport: Scene viewport resized to 1134x693, mode Windowed.
+[2023.07.12-18.18.31:626][172]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.12-18.18.31:627][172]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.12-18.18.31:627][172]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.12-18.18.32:405][172]LogDerivedDataCache: C:/Users/jordi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.130 and deleted 0 files with total size 0 MiB. Scanned 3510 files in 3477 folders with total size 101 MiB.
+[2023.07.12-18.18.48:262][172]LogSlate: Window 'Escoger clase padre' being destroyed
+[2023.07.12-18.18.48:275][172]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.07.12-18.18.50:580][442]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.07.12-18.18.50:587][443]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.07.12-18.18.57:106][225]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Debri
+[2023.07.12-18.18.57:113][225]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.07.12-18.18.58:573][396]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Experimentando/BP_Debri.BP_Debri
+[2023.07.12-18.18.58:573][396]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-18.18.59:056][396]LogViewport: Scene viewport resized to 1134x693, mode Windowed.
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: ================================================
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Total job queries 169, among them cache hits 33 (19.53%)
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Tracking 136 distinct input hashes that result in 93 distinct outputs (68.38%)
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: RAM used: 1.45 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.18%
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Shaders Compiled: 9
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Jobs assigned 9, completed 9 (100.00%)
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Average time worker was idle: 589.23 s
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Job execution time: average 2.06 s, max 3.27 s
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Job life time (pending + execution): average 2.12 s, max 3.38
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 11.63 s
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Jobs were issued in 9 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Average processing rate: 0.77 jobs/sec
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Total thread time: 15.45 s
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Total thread preprocess time: 0.35 s
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Percentage time preprocessing: 2.24%
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Effective parallelization: 1.33 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 2.66 sec, max 2.89 sec, min 2.42 sec)
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 2.65 sec, max 2.91 sec, min 2.39 sec)
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 2.54 sec, max 2.54 sec, min 2.54 sec)
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.58 sec, max 0.62 sec, min 0.54 sec)
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 0.56 sec, max 0.63 sec, min 0.50 sec)
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 34.39% of total time (compiled    2 times, average 2.66 sec, max 2.89 sec, min 2.42 sec)
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 34.34% of total time (compiled    2 times, average 2.65 sec, max 2.91 sec, min 2.39 sec)
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.43% of total time (compiled    1 times, average 2.54 sec, max 2.54 sec, min 2.54 sec)
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.54% of total time (compiled    2 times, average 0.58 sec, max 0.62 sec, min 0.54 sec)
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 7.31% of total time (compiled    2 times, average 0.56 sec, max 0.63 sec, min 0.50 sec)
+[2023.07.12-18.19.34:867][615]LogShaderCompilers: Display: ================================================
+[2023.07.12-18.20.22:193][232]BlueprintLog: New page: Compilar BP_Debri
+[2023.07.12-18.20.22:247][232]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.07.12-18.20.33:920][486]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.12-18.20.33:921][486]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.12-18.20.33:921][486]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.12-18.20.55:669][948]BlueprintLog: New page: Compilar VRPawn
+[2023.07.12-18.20.55:793][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.07.12-18.20.57:198][ 71]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.07.12-18.20.57:203][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-18.20.57:203][ 71]PIE: New page: Sesión PIE (reproducción en el editor): VRTemplateMap (12 jul. 2023 22:20:57)
+[2023.07.12-18.20.57:203][ 71]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-18.20.57:227][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023729s)
+[2023.07.12-18.20.57:227][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.023766s)
+[2023.07.12-18.20.57:227][ 71]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-18.20.57:227][ 71]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.07.12-18.20.57:227][ 71]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2023.07.12-18.20.57:271][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.07.12-18.20.57:277][ 71]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2023.07.12-18.20.57:277][ 71]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.12-18.20.57:277][ 71]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.12-18.20.57:277][ 71]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.12-18.20.57:277][ 71]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.12-18.20.57:277][ 71]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.12-18.20.57:277][ 71]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.12-18.20.57:277][ 71]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.12-18.20.57:277][ 71]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.12-18.20.57:278][ 71]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.07.12-18.20.57:278][ 71]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.07.12-18.20.57:278][ 71]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.12-18.20.57:280][ 71]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.12-18.20.57:318][ 71]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Logitech G733 Gaming Headset)
+[2023.07.12-18.20.57:318][ 71]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.12-18.20.57:318][ 71]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.12-18.20.57:318][ 71]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.12-18.20.57:319][ 71]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2023.07.12-18.20.57:319][ 71]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=26
+[2023.07.12-18.20.57:320][ 71]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2023.07.12-18.20.57:320][ 71]LogInit: FAudioDevice initialized.
+[2023.07.12-18.20.57:320][ 71]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2023.07.12-18.20.57:320][ 71]LogAudio: Display: Audio Device (ID: 26) registered with world 'VRTemplateMap'.
+[2023.07.12-18.20.57:333][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-18.20.58:367][ 71]LogLoad: Game class is 'VRGameMode_C'
+[2023.07.12-18.20.58:373][ 71]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.07.12-20.20.58
+[2023.07.12-18.20.58:373][ 71]LogWorld: Bringing up level for play took: 0.005614
+[2023.07.12-18.20.58:375][ 71]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2023.07.12-18.20.58:379][ 71]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.07.12-18.20.58:381][ 71]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.07.12-18.20.58:382][ 71]Cmd: vr.PixelDensity 0.7
+[2023.07.12-18.20.58:382][ 71]vr.PixelDensity = "0.7"
+[2023.07.12-18.20.58:393][ 71]PIE: El servidor ha iniciado la sesión
+[2023.07.12-18.20.58:399][ 71]PIE: Play in editor total start time 1,197 seconds.
+[2023.07.12-18.20.58:579][ 71]LogViewport: Scene viewport resized to 3192x1776, mode Windowed.
+[2023.07.12-18.20.58:605][ 71]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.07.12-18.20.58:624][ 71]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.07.12-18.21.19:858][578]LogStaticMesh: Display: Generando la malla estática SM_Chair...
+[2023.07.12-18.21.19:860][578]LogStaticMesh: Adjacency [0.00s], tris: 662, UVs 1
+[2023.07.12-18.21.19:861][578]LogStaticMesh: Clustering [0.00s]. Ratio: 1.666667
+[2023.07.12-18.21.19:861][578]LogStaticMesh: Leaves [0.00s]
+[2023.07.12-18.21.19:875][578]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Props/SM_Chair) ...
+[2023.07.12-18.21.19:890][578]LogStaticMesh: Reduce [0.03s]
+[2023.07.12-18.21.19:891][578]LogStaticMesh: Fallback 0/1 [0.00s], num tris: 252
+[2023.07.12-18.21.19:892][578]LogStaticMesh: ConstrainClusters:
+[2023.07.12-18.21.19:892][578]LogStaticMesh:   Input: 16 Clusters, 1418 Triangles and 1407 Vertices
+[2023.07.12-18.21.19:892][578]LogStaticMesh:   Output without splits: 16 Clusters, 1418 Triangles and 1407 Vertices
+[2023.07.12-18.21.19:892][578]LogStaticMesh:   Output with splits: 16 Clusters, 1418 Triangles and 1407 Vertices
+[2023.07.12-18.21.19:892][578]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 16, Slow Path Clusters: 0, 1 Material: 16, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.07.12-18.21.19:892][578]LogStaticMesh: WritePages:
+[2023.07.12-18.21.19:892][578]LogStaticMesh:   Root: GPU size: 17224 bytes. 1 Pages. 17224.000 bytes per page (52.563% utilization).
+[2023.07.12-18.21.19:892][578]LogStaticMesh:   Streaming: 0 bytes.
+[2023.07.12-18.21.19:892][578]LogStaticMesh:   Page data disk size: 13460 bytes. Fixup data size: 72 bytes.
+[2023.07.12-18.21.19:892][578]LogStaticMesh:   Total GPU size: 17224 bytes, Total disk size: 13532 bytes.
+[2023.07.12-18.21.19:892][578]LogStaticMesh: Encode [0.00s]
+[2023.07.12-18.21.19:892][578]LogStaticMesh: Nanite build [0.03s]
+
+[2023.07.12-18.21.19:894][578]LogStaticMesh: Built static mesh [0.04s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-18.21.19:922][579]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.07.12-18.21.33:690][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-18.21.33:691][206]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-18.21.33:760][206]LogSlate: Window 'TFG Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR SteamVR/OpenXR (1.26.5)' being destroyed
+[2023.07.12-18.21.33:762][206]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-18.21.33:762][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-18.21.33:764][206]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.12-18.21.33:773][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-18.21.33:818][206]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.07.12-18.21.33:818][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.07.12-18.21.33:820][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.07.12-18.21.33:825][206]LogSlate: Slate User Unregistered.  User Index 8
+[2023.07.12-18.21.33:825][206]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.07.12-18.21.33:827][206]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.07.12-18.21.33:861][207]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2023.07.12-18.21.42:409][187]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-18.22.14:802][814]BlueprintLog: New page: Compilar VRPawn
+[2023.07.12-18.22.14:920][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.07.12-18.22.21:099][504]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.07.12-18.22.21:104][504]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.07.12-18.22.21:267][504]LogPlayLevel: [PlayLevel] Compiling BP_Wall before play...
+[2023.07.12-18.22.21:387][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.07.12-18.22.21:394][504]LogPlayLevel: PlayLevel: Blueprint regeneration took 289 ms (1 blueprints)
+[2023.07.12-18.22.21:394][504]PIE: New page: Sesión PIE (reproducción en el editor): VRTemplateMap (12 jul. 2023 22:22:21)
+[2023.07.12-18.22.21:394][504]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-18.22.21:419][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024732s)
+[2023.07.12-18.22.21:419][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.024758s)
+[2023.07.12-18.22.21:419][504]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-18.22.21:419][504]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.07.12-18.22.21:419][504]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2023.07.12-18.22.21:459][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.07.12-18.22.21:462][504]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2023.07.12-18.22.21:462][504]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.12-18.22.21:462][504]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.12-18.22.21:462][504]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.12-18.22.21:462][504]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.12-18.22.21:462][504]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.12-18.22.21:462][504]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.12-18.22.21:462][504]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.12-18.22.21:462][504]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.12-18.22.21:463][504]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.07.12-18.22.21:463][504]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.07.12-18.22.21:463][504]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.12-18.22.21:465][504]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.12-18.22.21:502][504]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Logitech G733 Gaming Headset)
+[2023.07.12-18.22.21:502][504]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.12-18.22.21:502][504]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.12-18.22.21:502][504]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.12-18.22.21:503][504]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2023.07.12-18.22.21:503][504]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=27
+[2023.07.12-18.22.21:504][504]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2023.07.12-18.22.21:504][504]LogInit: FAudioDevice initialized.
+[2023.07.12-18.22.21:504][504]LogAudio: Display: Audio Device (ID: 27) registered with world 'VRTemplateMap'.
+[2023.07.12-18.22.21:504][504]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2023.07.12-18.22.21:518][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-18.22.22:548][504]LogLoad: Game class is 'VRGameMode_C'
+[2023.07.12-18.22.22:552][504]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.07.12-20.22.22
+[2023.07.12-18.22.22:553][504]LogWorld: Bringing up level for play took: 0.004636
+[2023.07.12-18.22.22:555][504]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2023.07.12-18.22.22:558][504]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.07.12-18.22.22:560][504]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.07.12-18.22.22:560][504]Cmd: vr.PixelDensity 0.7
+[2023.07.12-18.22.22:561][504]vr.PixelDensity = "0.7"
+[2023.07.12-18.22.22:563][504]PIE: El servidor ha iniciado la sesión
+[2023.07.12-18.22.22:564][504]PIE: Play in editor total start time 1,46 seconds.
+[2023.07.12-18.22.22:809][504]LogViewport: Scene viewport resized to 3192x1776, mode Windowed.
+[2023.07.12-18.22.22:822][504]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.07.12-18.22.22:842][504]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.07.12-18.22.42:179][747]LogStaticMesh: Display: Generando la malla estática SM_Chair...
+[2023.07.12-18.22.42:181][747]LogStaticMesh: Adjacency [0.00s], tris: 844, UVs 1
+[2023.07.12-18.22.42:182][747]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.07.12-18.22.42:182][747]LogStaticMesh: Leaves [0.00s]
+[2023.07.12-18.22.42:196][747]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Props/SM_Chair) ...
+[2023.07.12-18.22.42:225][747]LogStaticMesh: Reduce [0.04s]
+[2023.07.12-18.22.42:225][747]LogStaticMesh: Fallback 0/1 [0.00s], num tris: 252
+[2023.07.12-18.22.42:226][747]LogStaticMesh: ConstrainClusters:
+[2023.07.12-18.22.42:226][747]LogStaticMesh:   Input: 14 Clusters, 1726 Triangles and 1757 Vertices
+[2023.07.12-18.22.42:226][747]LogStaticMesh:   Output without splits: 14 Clusters, 1726 Triangles and 1761 Vertices
+[2023.07.12-18.22.42:226][747]LogStaticMesh:   Output with splits: 14 Clusters, 1726 Triangles and 1761 Vertices
+[2023.07.12-18.22.42:226][747]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 14, Slow Path Clusters: 0, 1 Material: 14, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.07.12-18.22.42:227][747]LogStaticMesh: WritePages:
+[2023.07.12-18.22.42:227][747]LogStaticMesh:   Root: GPU size: 20692 bytes. 1 Pages. 20692.000 bytes per page (63.147% utilization).
+[2023.07.12-18.22.42:227][747]LogStaticMesh:   Streaming: 0 bytes.
+[2023.07.12-18.22.42:227][747]LogStaticMesh:   Page data disk size: 15540 bytes. Fixup data size: 72 bytes.
+[2023.07.12-18.22.42:227][747]LogStaticMesh:   Total GPU size: 20692 bytes, Total disk size: 15612 bytes.
+[2023.07.12-18.22.42:227][747]LogStaticMesh: Encode [0.00s]
+[2023.07.12-18.22.42:227][747]LogStaticMesh: Nanite build [0.04s]
+
+[2023.07.12-18.22.42:229][747]LogStaticMesh: Built static mesh [0.05s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-18.22.42:253][748]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.07.12-18.23.01:421][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-18.23.01:421][ 44]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-18.23.01:490][ 44]LogSlate: Window 'TFG Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR SteamVR/OpenXR (1.26.5)' being destroyed
+[2023.07.12-18.23.01:492][ 44]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-18.23.01:492][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-18.23.01:495][ 44]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.12-18.23.01:504][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-18.23.01:546][ 44]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.07.12-18.23.01:547][ 44]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.07.12-18.23.01:548][ 44]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.07.12-18.23.01:554][ 44]LogSlate: Slate User Unregistered.  User Index 8
+[2023.07.12-18.23.01:554][ 44]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.07.12-18.23.01:556][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.07.12-18.23.01:592][ 45]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2023.07.12-18.23.01:624][ 46]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-18.25.05:191][378]BlueprintLog: New page: Compilar VRPawn
+[2023.07.12-18.25.05:310][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.07.12-18.25.07:999][654]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.07.12-18.25.08:005][654]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-18.25.08:005][654]PIE: New page: Sesión PIE (reproducción en el editor): VRTemplateMap (12 jul. 2023 22:25:08)
+[2023.07.12-18.25.08:005][654]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-18.25.08:029][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024618s)
+[2023.07.12-18.25.08:029][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.024642s)
+[2023.07.12-18.25.08:030][654]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-18.25.08:030][654]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.07.12-18.25.08:030][654]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2023.07.12-18.25.08:075][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.07.12-18.25.08:080][654]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2023.07.12-18.25.08:080][654]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.12-18.25.08:080][654]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.12-18.25.08:080][654]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.12-18.25.08:080][654]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.12-18.25.08:080][654]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.12-18.25.08:080][654]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.12-18.25.08:080][654]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.12-18.25.08:080][654]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.12-18.25.08:080][654]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.07.12-18.25.08:080][654]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.07.12-18.25.08:080][654]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.12-18.25.08:082][654]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.12-18.25.08:124][654]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Logitech G733 Gaming Headset)
+[2023.07.12-18.25.08:124][654]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.12-18.25.08:124][654]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.12-18.25.08:124][654]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.12-18.25.08:125][654]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2023.07.12-18.25.08:125][654]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=28
+[2023.07.12-18.25.08:126][654]LogInit: FAudioDevice initialized.
+[2023.07.12-18.25.08:126][654]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2023.07.12-18.25.08:126][654]LogAudio: Display: Audio Device (ID: 28) registered with world 'VRTemplateMap'.
+[2023.07.12-18.25.08:126][654]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2023.07.12-18.25.08:142][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-18.25.09:168][654]LogLoad: Game class is 'VRGameMode_C'
+[2023.07.12-18.25.09:173][654]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.07.12-20.25.09
+[2023.07.12-18.25.09:173][654]LogWorld: Bringing up level for play took: 0.004932
+[2023.07.12-18.25.09:175][654]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2023.07.12-18.25.09:178][654]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.07.12-18.25.09:180][654]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.07.12-18.25.09:181][654]Cmd: vr.PixelDensity 0.7
+[2023.07.12-18.25.09:181][654]vr.PixelDensity = "0.7"
+[2023.07.12-18.25.09:192][654]PIE: El servidor ha iniciado la sesión
+[2023.07.12-18.25.09:197][654]PIE: Play in editor total start time 1,193 seconds.
+[2023.07.12-18.25.09:277][654]LogViewport: Scene viewport resized to 3192x1776, mode Windowed.
+[2023.07.12-18.25.09:309][654]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.07.12-18.25.09:329][654]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.07.12-18.25.19:822][854]LogStaticMesh: Display: Generando la malla estática SM_Chair...
+[2023.07.12-18.25.19:825][854]LogStaticMesh: Adjacency [0.00s], tris: 996, UVs 1
+[2023.07.12-18.25.19:826][854]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.07.12-18.25.19:826][854]LogStaticMesh: Leaves [0.00s]
+[2023.07.12-18.25.19:838][854]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Props/SM_Chair) ...
+[2023.07.12-18.25.19:878][854]LogStaticMesh: Reduce [0.05s]
+[2023.07.12-18.25.19:892][854]LogStaticMesh: Fallback 0/1 [0.01s], num tris: 256
+[2023.07.12-18.25.19:893][854]LogStaticMesh: ConstrainClusters:
+[2023.07.12-18.25.19:893][854]LogStaticMesh:   Input: 15 Clusters, 1878 Triangles and 1917 Vertices
+[2023.07.12-18.25.19:893][854]LogStaticMesh:   Output without splits: 15 Clusters, 1878 Triangles and 1922 Vertices
+[2023.07.12-18.25.19:893][854]LogStaticMesh:   Output with splits: 15 Clusters, 1878 Triangles and 1922 Vertices
+[2023.07.12-18.25.19:893][854]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 15, Slow Path Clusters: 0, 1 Material: 15, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.07.12-18.25.19:894][854]LogStaticMesh: WritePages:
+[2023.07.12-18.25.19:894][854]LogStaticMesh:   Root: GPU size: 22100 bytes. 1 Pages. 22100.000 bytes per page (67.444% utilization).
+[2023.07.12-18.25.19:894][854]LogStaticMesh:   Streaming: 0 bytes.
+[2023.07.12-18.25.19:894][854]LogStaticMesh:   Page data disk size: 17392 bytes. Fixup data size: 72 bytes.
+[2023.07.12-18.25.19:894][854]LogStaticMesh:   Total GPU size: 22100 bytes, Total disk size: 17464 bytes.
+[2023.07.12-18.25.19:894][854]LogStaticMesh: Encode [0.00s]
+[2023.07.12-18.25.19:894][854]LogStaticMesh: Nanite build [0.07s]
+
+[2023.07.12-18.25.19:896][854]LogStaticMesh: Built static mesh [0.07s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-18.25.19:919][855]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.07.12-18.25.27:861][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-18.25.27:861][804]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-18.25.27:939][804]LogSlate: Window 'TFG Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR SteamVR/OpenXR (1.26.5)' being destroyed
+[2023.07.12-18.25.27:941][804]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-18.25.27:942][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-18.25.27:944][804]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.12-18.25.27:952][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-18.25.27:995][804]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.12-18.25.27:996][804]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.07.12-18.25.27:996][804]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.07.12-18.25.27:997][804]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.07.12-18.25.28:003][804]LogSlate: Slate User Unregistered.  User Index 8
+[2023.07.12-18.25.28:003][804]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.07.12-18.25.28:005][804]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2023.07.12-18.25.28:041][805]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2023.07.12-18.26.26:936][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.07.12-18.26.26:966][582]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto2
+[2023.07.12-18.26.26:966][582]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/VRTemplateMap_Auto28FBC788B422AC9842D4F13997515B8F9.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto2.umap'
+[2023.07.12-18.26.26:973][582]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.082
+[2023.07.12-18.26.26:973][582]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.082
+[2023.07.12-18.26.26:973][582]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Experimentando/BP_Wall] ([2] browsable assets)...
+[2023.07.12-18.26.26:973][582]OBJ SavePackage: Finished generating thumbnails for package [/Game/Experimentando/BP_Wall]
+[2023.07.12-18.26.26:978][582]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Experimentando/BP_Wall_Auto2
+[2023.07.12-18.26.26:978][582]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/BP_Wall_Auto229D24A76416AD179A6232F9CB5FFEDE3.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/Autosaves/Game/Experimentando/BP_Wall_Auto2.uasset'
+[2023.07.12-18.26.26:980][582]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/VRTemplate/Blueprints/VRPawn] ([2] browsable assets)...
+[2023.07.12-18.26.26:991][582]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn]
+[2023.07.12-18.26.26:991][582]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRTemplate/Blueprints/VRPawn]
+[2023.07.12-18.26.27:083][582]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto2
+[2023.07.12-18.26.27:083][582]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/VRPawn_Auto25D1B63994251DE53FFE598B940A7D5B2.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto2.uasset'
+[2023.07.12-18.26.27:086][582]LogFileHelpers: Auto-saving content packages took 0.113
+[2023.07.12-18.27.07:212][132]BlueprintLog: New page: Compilar VRPawn
+[2023.07.12-18.27.07:332][132]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.07.12-18.27.08:787][253]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.07.12-18.27.08:792][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-18.27.08:792][253]PIE: New page: Sesión PIE (reproducción en el editor): VRTemplateMap (12 jul. 2023 22:27:08)
+[2023.07.12-18.27.08:792][253]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-18.27.08:816][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024259s)
+[2023.07.12-18.27.08:816][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.024284s)
+[2023.07.12-18.27.08:816][253]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-18.27.08:817][253]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.07.12-18.27.08:817][253]LogPlayLevel: PIE: World Init took: (0.000624s)
+[2023.07.12-18.27.08:861][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2023.07.12-18.27.08:867][253]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2023.07.12-18.27.08:867][253]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.12-18.27.08:867][253]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.12-18.27.08:867][253]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.12-18.27.08:867][253]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.12-18.27.08:867][253]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.12-18.27.08:867][253]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.12-18.27.08:867][253]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.12-18.27.08:867][253]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.12-18.27.08:867][253]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.07.12-18.27.08:867][253]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.07.12-18.27.08:867][253]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.12-18.27.08:869][253]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.12-18.27.08:907][253]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Logitech G733 Gaming Headset)
+[2023.07.12-18.27.08:907][253]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.12-18.27.08:907][253]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.12-18.27.08:907][253]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.12-18.27.08:909][253]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2023.07.12-18.27.08:909][253]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=29
+[2023.07.12-18.27.08:910][253]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2023.07.12-18.27.08:910][253]LogInit: FAudioDevice initialized.
+[2023.07.12-18.27.08:910][253]LogAudio: Display: Audio Device (ID: 29) registered with world 'VRTemplateMap'.
+[2023.07.12-18.27.08:910][253]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2023.07.12-18.27.08:927][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-18.27.09:954][253]LogLoad: Game class is 'VRGameMode_C'
+[2023.07.12-18.27.09:959][253]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.07.12-20.27.09
+[2023.07.12-18.27.09:959][253]LogWorld: Bringing up level for play took: 0.005254
+[2023.07.12-18.27.09:962][253]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2023.07.12-18.27.09:965][253]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.07.12-18.27.09:968][253]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.07.12-18.27.09:968][253]Cmd: vr.PixelDensity 0.7
+[2023.07.12-18.27.09:968][253]vr.PixelDensity = "0.7"
+[2023.07.12-18.27.09:979][253]PIE: El servidor ha iniciado la sesión
+[2023.07.12-18.27.09:985][253]PIE: Play in editor total start time 1,193 seconds.
+[2023.07.12-18.27.10:115][253]LogViewport: Scene viewport resized to 3192x1776, mode Windowed.
+[2023.07.12-18.27.10:148][253]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.07.12-18.27.10:166][253]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.07.12-18.27.23:138][738]LogStaticMesh: Display: Generando la malla estática SM_Chair...
+[2023.07.12-18.27.23:139][738]LogStaticMesh: Adjacency [0.00s], tris: 348, UVs 1
+[2023.07.12-18.27.23:140][738]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.07.12-18.27.23:140][738]LogStaticMesh: Leaves [0.00s]
+[2023.07.12-18.27.23:153][738]LogStaticMesh: Reduce [0.01s]
+[2023.07.12-18.27.23:154][738]LogStaticMesh: Fallback 0/1 [0.00s], num tris: 252
+[2023.07.12-18.27.23:154][738]LogStaticMesh: ConstrainClusters:
+[2023.07.12-18.27.23:154][738]LogStaticMesh:   Input: 6 Clusters, 726 Triangles and 708 Vertices
+[2023.07.12-18.27.23:154][738]LogStaticMesh:   Output without splits: 6 Clusters, 726 Triangles and 708 Vertices
+[2023.07.12-18.27.23:154][738]LogStaticMesh:   Output with splits: 6 Clusters, 726 Triangles and 708 Vertices
+[2023.07.12-18.27.23:154][738]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 6, Slow Path Clusters: 0, 1 Material: 6, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.07.12-18.27.23:155][738]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Props/SM_Chair) ...
+[2023.07.12-18.27.23:155][738]LogStaticMesh: WritePages:
+[2023.07.12-18.27.23:155][738]LogStaticMesh:   Root: GPU size: 8356 bytes. 1 Pages. 8356.000 bytes per page (25.500% utilization).
+[2023.07.12-18.27.23:155][738]LogStaticMesh:   Streaming: 0 bytes.
+[2023.07.12-18.27.23:155][738]LogStaticMesh:   Page data disk size: 6164 bytes. Fixup data size: 56 bytes.
+[2023.07.12-18.27.23:155][738]LogStaticMesh:   Total GPU size: 8356 bytes, Total disk size: 6220 bytes.
+[2023.07.12-18.27.23:155][738]LogStaticMesh: Encode [0.00s]
+[2023.07.12-18.27.23:155][738]LogStaticMesh: Nanite build [0.01s]
+
+[2023.07.12-18.27.23:156][738]LogStaticMesh: Built static mesh [0.02s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-18.27.23:180][739]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.07.12-18.27.32:329][814]LogStaticMesh: Display: Generando la malla estática SM_Chair...
+[2023.07.12-18.27.32:330][814]LogStaticMesh: Adjacency [0.00s], tris: 248, UVs 1
+[2023.07.12-18.27.32:330][814]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.07.12-18.27.32:330][814]LogStaticMesh: Leaves [0.00s]
+[2023.07.12-18.27.32:336][814]LogStaticMesh: Reduce [0.01s]
+[2023.07.12-18.27.32:337][814]LogStaticMesh: Fallback 0/1 [0.00s], num tris: 248
+[2023.07.12-18.27.32:337][814]LogStaticMesh: ConstrainClusters:
+[2023.07.12-18.27.32:337][814]LogStaticMesh:   Input: 3 Clusters, 374 Triangles and 392 Vertices
+[2023.07.12-18.27.32:337][814]LogStaticMesh:   Output without splits: 3 Clusters, 374 Triangles and 392 Vertices
+[2023.07.12-18.27.32:337][814]LogStaticMesh:   Output with splits: 3 Clusters, 374 Triangles and 392 Vertices
+[2023.07.12-18.27.32:337][814]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 3, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.07.12-18.27.32:337][814]LogStaticMesh: WritePages:
+[2023.07.12-18.27.32:337][814]LogStaticMesh:   Root: GPU size: 4604 bytes. 1 Pages. 4604.000 bytes per page (14.050% utilization).
+[2023.07.12-18.27.32:337][814]LogStaticMesh:   Streaming: 0 bytes.
+[2023.07.12-18.27.32:337][814]LogStaticMesh:   Page data disk size: 3956 bytes. Fixup data size: 40 bytes.
+[2023.07.12-18.27.32:337][814]LogStaticMesh:   Total GPU size: 4604 bytes, Total disk size: 3996 bytes.
+[2023.07.12-18.27.32:337][814]LogStaticMesh: Encode [0.00s]
+[2023.07.12-18.27.32:337][814]LogStaticMesh: Nanite build [0.01s]
+
+[2023.07.12-18.27.32:339][814]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-18.27.42:950][ 31]LogStaticMesh: Display: Generando la malla estática SM_Chair...
+[2023.07.12-18.27.42:953][ 31]LogStaticMesh: Adjacency [0.00s], tris: 788, UVs 1
+[2023.07.12-18.27.42:954][ 31]LogStaticMesh: Clustering [0.00s]. Ratio: 1.714286
+[2023.07.12-18.27.42:955][ 31]LogStaticMesh: Leaves [0.00s]
+[2023.07.12-18.27.42:967][ 31]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Props/SM_Chair) ...
+[2023.07.12-18.27.42:991][ 31]LogStaticMesh: Reduce [0.04s]
+[2023.07.12-18.27.43:005][ 31]LogStaticMesh: Fallback 0/1 [0.01s], num tris: 256
+[2023.07.12-18.27.43:005][ 31]LogStaticMesh: ConstrainClusters:
+[2023.07.12-18.27.43:005][ 31]LogStaticMesh:   Input: 19 Clusters, 1670 Triangles and 1788 Vertices
+[2023.07.12-18.27.43:005][ 31]LogStaticMesh:   Output without splits: 19 Clusters, 1670 Triangles and 1788 Vertices
+[2023.07.12-18.27.43:005][ 31]LogStaticMesh:   Output with splits: 19 Clusters, 1670 Triangles and 1788 Vertices
+[2023.07.12-18.27.43:006][ 31]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 19, Slow Path Clusters: 0, 1 Material: 19, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.07.12-18.27.43:006][ 31]LogStaticMesh: WritePages:
+[2023.07.12-18.27.43:006][ 31]LogStaticMesh:   Root: GPU size: 21856 bytes. 1 Pages. 21856.000 bytes per page (66.699% utilization).
+[2023.07.12-18.27.43:006][ 31]LogStaticMesh:   Streaming: 0 bytes.
+[2023.07.12-18.27.43:006][ 31]LogStaticMesh:   Page data disk size: 17380 bytes. Fixup data size: 72 bytes.
+[2023.07.12-18.27.43:006][ 31]LogStaticMesh:   Total GPU size: 21856 bytes, Total disk size: 17452 bytes.
+[2023.07.12-18.27.43:006][ 31]LogStaticMesh: Encode [0.00s]
+[2023.07.12-18.27.43:006][ 31]LogStaticMesh: Nanite build [0.05s]
+
+[2023.07.12-18.27.43:009][ 31]LogStaticMesh: Built static mesh [0.06s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-18.27.56:071][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-18.27.56:071][593]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-18.27.56:151][593]LogSlate: Window 'TFG Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR SteamVR/OpenXR (1.26.5)' being destroyed
+[2023.07.12-18.27.56:153][593]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-18.27.56:153][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-18.27.56:155][593]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.12-18.27.56:164][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-18.27.56:207][593]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.12-18.27.56:207][593]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.07.12-18.27.56:207][593]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.07.12-18.27.56:209][593]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.07.12-18.27.56:214][593]LogSlate: Slate User Unregistered.  User Index 8
+[2023.07.12-18.27.56:214][593]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.07.12-18.27.56:216][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.07.12-18.27.56:252][594]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2023.07.12-18.30.13:909][478]BlueprintLog: New page: Compilar BP_Debri
+[2023.07.12-18.30.14:082][478]LogBlueprint: Error: [AssetLog] /Game/Experimentando/BP_Debri.BP_Debri (no disk path found): [Compiler] The current value of the ' Delay Settings ' pin is invalid: 'Delay Settings' in action 'Set Delay Length' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2023.07.12-18.30.14:143][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.07.12-18.31.56:242][828]BlueprintLog: New page: Compilar BP_Debri
+[2023.07.12-18.31.56:247][828]LogBlueprint: Error: [AssetLog] /Game/Experimentando/BP_Debri.BP_Debri (no disk path found): [Compiler] Evento BeginPlay  Signature Error: The selected function/event is not bindable - is the function/event deprecated, pure or latent?
+[2023.07.12-18.31.56:306][828]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2023.07.12-18.32.27:632][477]BlueprintLog: New page: Compilar BP_Debri
+[2023.07.12-18.32.27:693][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.07.12-18.33.50:869][287]BlueprintLog: New page: Compilar BP_Debri
+[2023.07.12-18.33.50:928][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.07.12-18.33.54:452][695]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.07.12-18.33.54:458][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-18.33.54:458][695]PIE: New page: Sesión PIE (reproducción en el editor): VRTemplateMap (12 jul. 2023 22:33:54)
+[2023.07.12-18.33.54:458][695]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-18.33.54:482][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023484s)
+[2023.07.12-18.33.54:482][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.023513s)
+[2023.07.12-18.33.54:482][695]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-18.33.54:482][695]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.07.12-18.33.54:482][695]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2023.07.12-18.33.54:525][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.07.12-18.33.54:530][695]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2023.07.12-18.33.54:531][695]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.12-18.33.54:531][695]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.12-18.33.54:531][695]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.12-18.33.54:531][695]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.12-18.33.54:531][695]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.12-18.33.54:531][695]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.12-18.33.54:531][695]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.12-18.33.54:531][695]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.12-18.33.54:531][695]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.07.12-18.33.54:531][695]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.07.12-18.33.54:531][695]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.12-18.33.54:533][695]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.12-18.33.54:571][695]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Logitech G733 Gaming Headset)
+[2023.07.12-18.33.54:571][695]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.12-18.33.54:571][695]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.12-18.33.54:571][695]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.12-18.33.54:572][695]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2023.07.12-18.33.54:572][695]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=30
+[2023.07.12-18.33.54:573][695]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2023.07.12-18.33.54:573][695]LogInit: FAudioDevice initialized.
+[2023.07.12-18.33.54:573][695]LogAudio: Display: Audio Device (ID: 30) registered with world 'VRTemplateMap'.
+[2023.07.12-18.33.54:573][695]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2023.07.12-18.33.54:587][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-18.33.55:610][695]LogLoad: Game class is 'VRGameMode_C'
+[2023.07.12-18.33.55:617][695]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.07.12-20.33.55
+[2023.07.12-18.33.55:617][695]LogWorld: Bringing up level for play took: 0.006347
+[2023.07.12-18.33.55:619][695]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2023.07.12-18.33.55:622][695]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.07.12-18.33.55:624][695]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.07.12-18.33.55:625][695]Cmd: vr.PixelDensity 0.7
+[2023.07.12-18.33.55:625][695]vr.PixelDensity = "0.7"
+[2023.07.12-18.33.55:628][695]PIE: El servidor ha iniciado la sesión
+[2023.07.12-18.33.55:629][695]PIE: Play in editor total start time 1,171 seconds.
+[2023.07.12-18.33.55:756][695]LogViewport: Scene viewport resized to 3192x1776, mode Windowed.
+[2023.07.12-18.33.55:783][695]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.07.12-18.33.55:802][695]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.07.12-18.34.16:072][ 88]LogStaticMesh: Display: Generando la malla estática SM_Chair...
+[2023.07.12-18.34.16:074][ 88]LogStaticMesh: Adjacency [0.00s], tris: 816, UVs 1
+[2023.07.12-18.34.16:076][ 88]LogStaticMesh: Clustering [0.00s]. Ratio: 1.714286
+[2023.07.12-18.34.16:076][ 88]LogStaticMesh: Leaves [0.00s]
+[2023.07.12-18.34.16:089][ 88]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Props/SM_Chair) ...
+[2023.07.12-18.34.16:121][ 88]LogStaticMesh: Reduce [0.04s]
+[2023.07.12-18.34.16:121][ 88]LogStaticMesh: Fallback 0/1 [0.00s], num tris: 252
+[2023.07.12-18.34.16:122][ 88]LogStaticMesh: ConstrainClusters:
+[2023.07.12-18.34.16:122][ 88]LogStaticMesh:   Input: 19 Clusters, 1698 Triangles and 1789 Vertices
+[2023.07.12-18.34.16:122][ 88]LogStaticMesh:   Output without splits: 19 Clusters, 1698 Triangles and 1792 Vertices
+[2023.07.12-18.34.16:122][ 88]LogStaticMesh:   Output with splits: 19 Clusters, 1698 Triangles and 1792 Vertices
+[2023.07.12-18.34.16:122][ 88]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 19, Slow Path Clusters: 0, 1 Material: 19, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.07.12-18.34.16:122][ 88]LogStaticMesh: WritePages:
+[2023.07.12-18.34.16:122][ 88]LogStaticMesh:   Root: GPU size: 21444 bytes. 1 Pages. 21444.000 bytes per page (65.442% utilization).
+[2023.07.12-18.34.16:122][ 88]LogStaticMesh:   Streaming: 0 bytes.
+[2023.07.12-18.34.16:122][ 88]LogStaticMesh:   Page data disk size: 16732 bytes. Fixup data size: 72 bytes.
+[2023.07.12-18.34.16:122][ 88]LogStaticMesh:   Total GPU size: 21444 bytes, Total disk size: 16804 bytes.
+[2023.07.12-18.34.16:122][ 88]LogStaticMesh: Encode [0.00s]
+[2023.07.12-18.34.16:122][ 88]LogStaticMesh: Nanite build [0.05s]
+
+[2023.07.12-18.34.16:124][ 88]LogStaticMesh: Built static mesh [0.05s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-18.34.16:146][ 89]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.07.12-18.34.25:190][136]LogStaticMesh: Display: Generando la malla estática SM_Chair...
+[2023.07.12-18.34.25:192][136]LogStaticMesh: Adjacency [0.00s], tris: 522, UVs 1
+[2023.07.12-18.34.25:193][136]LogStaticMesh: Clustering [0.00s]. Ratio: 1.600000
+[2023.07.12-18.34.25:193][136]LogStaticMesh: Leaves [0.00s]
+[2023.07.12-18.34.25:207][136]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Props/SM_Chair) ...
+[2023.07.12-18.34.25:217][136]LogStaticMesh: Reduce [0.02s]
+[2023.07.12-18.34.25:224][136]LogStaticMesh: Fallback 0/1 [0.01s], num tris: 256
+[2023.07.12-18.34.25:224][136]LogStaticMesh: ConstrainClusters:
+[2023.07.12-18.34.25:224][136]LogStaticMesh:   Input: 14 Clusters, 1278 Triangles and 1516 Vertices
+[2023.07.12-18.34.25:224][136]LogStaticMesh:   Output without splits: 14 Clusters, 1278 Triangles and 1517 Vertices
+[2023.07.12-18.34.25:224][136]LogStaticMesh:   Output with splits: 14 Clusters, 1278 Triangles and 1517 Vertices
+[2023.07.12-18.34.25:224][136]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 14, Slow Path Clusters: 0, 1 Material: 14, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.07.12-18.34.25:225][136]LogStaticMesh: WritePages:
+[2023.07.12-18.34.25:225][136]LogStaticMesh:   Root: GPU size: 17892 bytes. 1 Pages. 17892.000 bytes per page (54.602% utilization).
+[2023.07.12-18.34.25:225][136]LogStaticMesh:   Streaming: 0 bytes.
+[2023.07.12-18.34.25:225][136]LogStaticMesh:   Page data disk size: 13144 bytes. Fixup data size: 72 bytes.
+[2023.07.12-18.34.25:225][136]LogStaticMesh:   Total GPU size: 17892 bytes, Total disk size: 13216 bytes.
+[2023.07.12-18.34.25:225][136]LogStaticMesh: Encode [0.00s]
+[2023.07.12-18.34.25:225][136]LogStaticMesh: Nanite build [0.03s]
+
+[2023.07.12-18.34.25:227][136]LogStaticMesh: Built static mesh [0.04s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-18.34.45:352][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-18.34.45:352][524]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-18.34.45:403][524]LogSlate: Window 'TFG Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR SteamVR/OpenXR (1.26.5)' being destroyed
+[2023.07.12-18.34.45:405][524]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-18.34.45:405][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-18.34.45:407][524]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.12-18.34.45:415][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-18.34.45:460][524]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.12-18.34.45:460][524]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.07.12-18.34.45:460][524]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.07.12-18.34.45:462][524]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.07.12-18.34.45:467][524]LogSlate: Slate User Unregistered.  User Index 8
+[2023.07.12-18.34.45:467][524]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.07.12-18.34.45:469][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.07.12-18.34.45:502][525]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2023.07.12-18.38.05:241][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2023.07.12-18.38.05:247][ 26]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.053
+[2023.07.12-18.38.05:248][ 26]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/VRTemplate/Blueprints/VRPawn] ([2] browsable assets)...
+[2023.07.12-18.38.05:259][ 26]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn]
+[2023.07.12-18.38.05:259][ 26]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRTemplate/Blueprints/VRPawn]
+[2023.07.12-18.38.05:346][ 26]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto3
+[2023.07.12-18.38.05:347][ 26]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/VRPawn_Auto3B26C082947B484888E495FBF1FC4A2C3.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/Autosaves/Game/VRTemplate/Blueprints/VRPawn_Auto3.uasset'
+[2023.07.12-18.38.05:348][ 26]LogFileHelpers: Auto-saving content packages took 0.101
+[2023.07.12-18.40.08:687][695]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.07.12-18.40.08:692][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-18.40.08:692][695]PIE: New page: Sesión PIE (reproducción en el editor): VRTemplateMap (12 jul. 2023 22:40:08)
+[2023.07.12-18.40.08:692][695]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-18.40.08:717][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024502s)
+[2023.07.12-18.40.08:717][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.024526s)
+[2023.07.12-18.40.08:717][695]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-18.40.08:717][695]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.07.12-18.40.08:718][695]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2023.07.12-18.40.08:763][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.07.12-18.40.08:767][695]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2023.07.12-18.40.08:767][695]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.12-18.40.08:767][695]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.12-18.40.08:767][695]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.12-18.40.08:767][695]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.12-18.40.08:767][695]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.12-18.40.08:767][695]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.12-18.40.08:767][695]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.12-18.40.08:767][695]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.12-18.40.08:767][695]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.07.12-18.40.08:767][695]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.07.12-18.40.08:767][695]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.12-18.40.08:769][695]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.12-18.40.08:808][695]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Logitech G733 Gaming Headset)
+[2023.07.12-18.40.08:808][695]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.12-18.40.08:808][695]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.12-18.40.08:808][695]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.12-18.40.08:810][695]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2023.07.12-18.40.08:810][695]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=31
+[2023.07.12-18.40.08:811][695]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2023.07.12-18.40.08:811][695]LogInit: FAudioDevice initialized.
+[2023.07.12-18.40.08:811][695]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2023.07.12-18.40.08:811][695]LogAudio: Display: Audio Device (ID: 31) registered with world 'VRTemplateMap'.
+[2023.07.12-18.40.08:825][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-18.40.09:858][695]LogLoad: Game class is 'VRGameMode_C'
+[2023.07.12-18.40.09:863][695]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.07.12-20.40.09
+[2023.07.12-18.40.09:864][695]LogWorld: Bringing up level for play took: 0.006015
+[2023.07.12-18.40.09:866][695]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2023.07.12-18.40.09:869][695]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.07.12-18.40.09:871][695]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.07.12-18.40.09:872][695]Cmd: vr.PixelDensity 0.7
+[2023.07.12-18.40.09:872][695]vr.PixelDensity = "0.7"
+[2023.07.12-18.40.09:883][695]PIE: El servidor ha iniciado la sesión
+[2023.07.12-18.40.09:888][695]PIE: Play in editor total start time 1,196 seconds.
+[2023.07.12-18.40.10:023][695]LogViewport: Scene viewport resized to 3192x1776, mode Windowed.
+[2023.07.12-18.40.10:049][695]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.07.12-18.40.10:068][695]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.07.12-18.40.32:174][234]LogStaticMesh: Display: Generando la malla estática SM_Chair...
+[2023.07.12-18.40.32:181][234]LogStaticMesh: Adjacency [0.00s], tris: 2602, UVs 1
+[2023.07.12-18.40.32:185][234]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.07.12-18.40.32:185][234]LogStaticMesh: Leaves [0.00s]
+[2023.07.12-18.40.32:191][234]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/StarterContent/Props/SM_Chair) ...
+[2023.07.12-18.40.32:322][234]LogStaticMesh: Reduce [0.14s]
+[2023.07.12-18.40.32:329][234]LogStaticMesh: Fallback 0/1 [0.01s], num tris: 256
+[2023.07.12-18.40.32:331][234]LogStaticMesh: ConstrainClusters:
+[2023.07.12-18.40.32:331][234]LogStaticMesh:   Input: 44 Clusters, 5500 Triangles and 5110 Vertices
+[2023.07.12-18.40.32:331][234]LogStaticMesh:   Output without splits: 44 Clusters, 5500 Triangles and 5127 Vertices
+[2023.07.12-18.40.32:331][234]LogStaticMesh:   Output with splits: 44 Clusters, 5500 Triangles and 5127 Vertices
+[2023.07.12-18.40.32:331][234]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 44, Slow Path Clusters: 0, 1 Material: 44, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.07.12-18.40.32:332][234]LogStaticMesh: WritePages:
+[2023.07.12-18.40.32:332][234]LogStaticMesh:   Root: GPU size: 32708 bytes. 1 Pages. 32708.000 bytes per page (99.817% utilization).
+[2023.07.12-18.40.32:332][234]LogStaticMesh:   Streaming: GPU size: 28688 bytes. 1 Pages (1 with relative encoding). 28688.000 bytes per page (21.887% utilization).
+[2023.07.12-18.40.32:332][234]LogStaticMesh:   Page data disk size: 45944 bytes. Fixup data size: 336 bytes.
+[2023.07.12-18.40.32:332][234]LogStaticMesh:   Total GPU size: 61396 bytes, Total disk size: 46280 bytes.
+[2023.07.12-18.40.32:332][234]LogStaticMesh: Encode [0.00s]
+[2023.07.12-18.40.32:332][234]LogStaticMesh: Nanite build [0.15s]
+
+[2023.07.12-18.40.32:334][234]LogStaticMesh: Built static mesh [0.16s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-18.40.32:360][235]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.07.12-18.40.46:422][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-18.40.46:422][918]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.07.12-18.40.46:474][918]LogSlate: Window 'TFG Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR SteamVR/OpenXR (1.26.5)' being destroyed
+[2023.07.12-18.40.46:476][918]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-18.40.46:477][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-18.40.46:479][918]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.12-18.40.46:487][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-18.40.46:530][918]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.12-18.40.46:530][918]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.07.12-18.40.46:530][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2023.07.12-18.40.46:532][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2023.07.12-18.40.46:538][918]LogSlate: Slate User Unregistered.  User Index 8
+[2023.07.12-18.40.46:538][918]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.07.12-18.40.46:541][918]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.07.12-18.40.46:577][919]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2023.07.12-18.45.19:836][941]LogContentBrowser: Attempting asset rename: SM_Chair -> SM_Debri
+[2023.07.12-18.45.19:893][941]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.12-18.45.19:933][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Debri" FILE="C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/StarterContent/Props/SM_Debri.uasset" SILENT=true
+[2023.07.12-18.45.19:944][941]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/SM_Debri
+[2023.07.12-18.45.19:944][941]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/SM_DebriDBF3569440DCA352C48149B799557CE0.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/StarterContent/Props/SM_Debri.uasset'
+[2023.07.12-18.45.19:946][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Chair" FILE="C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/StarterContent/Props/SM_Chair.uasset" SILENT=true
+[2023.07.12-18.45.19:947][941]LogSavePackage: Moving output files for package: /Game/StarterContent/Props/SM_Chair
+[2023.07.12-18.45.19:947][941]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/SM_Chair259D67C24FA824D86F6E0DBE0CD96CAA.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/StarterContent/Props/SM_Chair.uasset'
+[2023.07.12-18.45.19:956][941]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 784 ms)
+[2023.07.12-18.45.19:970][941]AssetCheck: New page: Asset Save: multiple assets
+[2023.07.12-18.45.19:970][941]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.07.12-18.45.19:970][941]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/StarterContent/Props/SM_Debri.SM_Debri
+[2023.07.12-18.46.11:593][980]LogEditorTransaction: Undo Cambiar el nombre del nodo
+[2023.07.12-18.46.54:053][646]BlueprintLog: New page: Compilar VRPawn
+[2023.07.12-18.46.54:202][646]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.07.12-18.47.21:131][811]BlueprintLog: New page: Compilar BP_Wall
+[2023.07.12-18.47.21:389][811]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2023.07.12-18.47.21:528][812]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.07.12-18.47.23:635][ 59]BlueprintLog: New page: Compilar BP_Debri
+[2023.07.12-18.47.23:700][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.07.12-18.47.36:244][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.07.12-18.47.36:252][520]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.12-18.47.36:326][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.07.12-18.47.36:355][520]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2023.07.12-18.47.36:355][520]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/VRTemplateMap91EE70014C54737ED839E2B6EDE64E34.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2023.07.12-18.47.36:368][520]LogFileHelpers: ¡No hay cambios que guardar!
+[2023.07.12-18.47.36:368][520]LogFileHelpers: Saving map 'VRTemplateMap' took 0.087
+[2023.07.12-18.47.36:368][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experimentando/BP_Wall" FILE="C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/Experimentando/BP_Wall.uasset" SILENT=true
+[2023.07.12-18.47.36:373][520]LogSavePackage: Moving output files for package: /Game/Experimentando/BP_Wall
+[2023.07.12-18.47.36:374][520]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/BP_WallB42069CB4FE1F1090F6D7F88DF19D2D0.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/Experimentando/BP_Wall.uasset'
+[2023.07.12-18.47.36:400][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/VRPawn" FILE="C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/VRTemplate/Blueprints/VRPawn.uasset" SILENT=true
+[2023.07.12-18.47.36:493][520]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2023.07.12-18.47.36:493][520]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/VRPawnE63604E74FF6888DBB83EB8090AAC192.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2023.07.12-18.47.36:499][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Experimentando/BP_Debri" FILE="C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/Experimentando/BP_Debri.uasset" SILENT=true
+[2023.07.12-18.47.36:502][520]LogSavePackage: Moving output files for package: /Game/Experimentando/BP_Debri
+[2023.07.12-18.47.36:502][520]LogSavePackage: Moving 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Saved/BP_Debri2E8BF0C449A78F64499401AC6F918733.tmp' to 'C:/Users/jordi/Documents/Unreal Projects/TFG_Unreal/TFG/Content/Experimentando/BP_Debri.uasset'
+[2023.07.12-18.47.36:509][520]LogFileHelpers: InternalPromptForCheckoutAndSave took 257 ms (total: 1.04 sec)
+[2023.07.12-18.47.36:527][520]AssetCheck: New page: Asset Save: multiple assets
+[2023.07.12-18.47.36:527][520]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Experimentando/BP_Wall.BP_Wall
+[2023.07.12-18.47.36:527][520]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2023.07.12-18.47.36:527][520]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2023.07.12-18.47.36:527][520]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Experimentando/BP_Debri.BP_Debri
