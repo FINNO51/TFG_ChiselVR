@@ -1,0 +1,30 @@
+\chapter{Descripción del problema}
+
+En este capítulo se desarrollará el problema que se ha introducido en la sección anterior y que se quiere resolver, formulando los objetivos que se quieren alcanzar al final del proyecto.
+
+\section{Problema a resolver}
+
+La realidad virtual ofrece una cantidad de opciones para la creación de aplicaciones de entrenamiento de habilidades sin precedentes, lo cual la hace óptima para la creación de simuladores de todo aquello que requiera un alto coste en suministros y herramientas \cite{skill_training}. Este es el caso en el tema de esta aplicación, la escultura.
+
+Esculpir a mármol directamente, sin conocimiento previo, es una idea muy desaconsejada por los expertos. El mármol es un material muy caro, por lo que lo recomendado es, para iniciarse, probar a esculpir en arcilla para adaptarse al proceso de tallar, seguido de intentar crear figuras con esteatita, un material bastante barato, y una vez listo, empezar a usar mármol \cite{rich1988materials}. La arcilla y la esteatita, sin embargo, son muy diferentes en comportamiento al mármol. Son materiales mucho más blandos, con la posibilidad de eliminar material incluso rasgando con un cuchillo. Por otro lado, cualquier otro material con una dureza y comportamiento mucho más parecidos al del mármol pasan a tener un precio que, aunque no necesariamente llega al nivel de este, sigue siendo considerablemente alto. Un simulador podría solucionar este problema.
+
+Si se pretende ser lo más fiel posible a cómo sería realizar estas acciones en la vida real, se necesita, por una parte, conocer perfectamente el comportamiento físico real de aquello que se intenta imitar, y por otra parte, conseguir virtualizar este comportamiento. En el caso de la escultura, esto se traduce en conocer la dureza del mármol, la forma de quebrarse dependiendo de la fuerza y del tipo de herramienta, la importancia del ángulo al golpear, etcétera; y al mismo tiempo, por la parte virtual, cómo averiguar la fuerza y ángulo de impacto de los controladores por movimiento con el bloque, cómo eliminar una cantidad y forma realista del material a causa de este impacto, cómo conseguir un \textbf{rendimiento de la aplicación correcto y constante} pese al coste computacional necesario, y otras muchas cuestiones. Esto último será, si no el que más, de los factores más importantes a tener en cuenta durante el desarrollo de la aplicación.
+
+Cabe añadir que desarrollar un simulador realista es una tarea ardua, donde es necesario un equipo amplio de desarrolladores. Es por eso que este proyecto apunta a construir las bases de dicho simulador, y servir así de \textbf{prueba de concepto} de lo que se puede lograr con la tecnología actual.
+
+Por tanto, el problema principal a resolver en este trabajo es el de desarrollar un simulador que permita al usuario experimentar la experiencia de esculpir a mármol sin necesidad de invertir en todos los materiales y herramientas necesarios para ello. La aplicación también debe mantener un rendimiento bueno y constante, pese a la pesadez de las operaciones necesarias, ya que un rendimiento pobre podría resultar en malestar y náuseas en el usuario.
+
+A continuación se describen los objetivos que busca alcanzar este proyecto en base a los problemas descritos. Se usarán posteriormente como medida para comprobar si el proyecto se ha finalizado correctamente.
+
+\section{Objetivos}
+
+Aquí se desglosan los objetivos específicos a alcanzar en este trabajo.
+
+\begin{itemize}
+	\item Diseñar y desarrollar una solución informática que permita, en realidad virtual, \textbf{tratar un cubo} como si fuese un bloque de mármol en la vida real.
+	\item La solución permitirá al usuario \textbf{modificar e interactuar} con el cubo en tiempo real, eliminando material de este poco a poco.
+	\item Implementar distintas \textbf{herramientas} que imiten el comportamiento de sus contrapartes reales y permitan al usuario interactuar de distintas formas.
+	\item La solución debe tener una navegación y unos controles \textbf{intuitivos}, que permitan a los usuarios entender el funcionamiento de la aplicación con facilidad.
+	\item Añadir una serie de efectos y presentar los elementos en pantalla de tal forma que la experiencia sea más \textbf{inmersiva} para el usuario.
+	\item La solución debe estar \textbf{optimizada} y mantener un rendimiento adecuado en la ejecución, algo esencial en cualquier aplicación 3D y específicamente en aplicaciones de realidad virtual.
+\end{itemize}

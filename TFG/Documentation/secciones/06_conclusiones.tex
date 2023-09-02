@@ -1,0 +1,45 @@
+\chapter{Conclusiones y trabajos futuros}
+
+En este capítulo se verá la respuesta de los usuarios y el coste estimado del proyecto, además de conclusiones y lecciones aprendidas al acabar el desarrollo y posibles trabajos futuros respecto al proyecto o con relación a este.
+
+\section{Encuesta a usuarios}
+
+Se ha realizado una pequeña encuesta\footnote{\url{https://docs.google.com/spreadsheets/d/1BGSYs5X8j8LkONdlrikgJ4Nl_MxtnB71MyePUcngQuI/edit?usp=sharing}} a 8 personas con una amplia variedad de familiarización con la informática y la realidad virtual, en la cual se les ha pedido su opinión (en un valor numérico del 0 al 10) respecto a distintos aspectos de la aplicación, además de darles la oportunidad de añadir un comentario sobre sus conclusiones. Este ha sido el resultado:
+
+\begin{itemize}
+    \item Interés en la escultura en RV: \textbf{7'75}
+    \item Aplicación enfocada en el realismo (0) o en el entretenimiento (10): \textbf{7'5}
+    \item Interés en el realismo (0) o en el entretenimiento (10): \textbf{7'375}
+    \item Interés en posterior desarrollo de la aplicación: \textbf{7'625}
+    \item Interés en mejoras técnicas (0) o de contenido (10): \textbf{5'25}
+\end{itemize}
+
+En general, las opiniones son bastante directas: \textbf{la escultura en realidad virtual}, aunque no sea una idea rompedora, tiene un \textbf{interés notable}, en concreto si se enfoca más como un videojuego con mecánicas más enfocadas en el entretenimiento del usuario que en la imitación de la realidad. Respecto a la aplicación en sí, los encuestados opinan que ChiselVR se decanta más por el entretenimiento, algunos de ellos usando adjetivos como \textit{arcade} para describirla de forma positiva. También existe un \textbf{interés en el crecimiento de la aplicación en miras al futuro, aunque sin decantarse por ningún tipo en concreto}: tan llamativas son las mejoras a la estabilidad de la aplicación como lo sería añadir más opciones al usuario. Uno de los encuestados, ingeniero informático graduado, llegó a mencionar sobre esto que, aunque se notan las costuras por culpa de Geometry Script, el usuario medio no lo va a notar tanto, así que sea del tipo que sea una posible actualización sería bienvenida.
+
+Notablemente existe una falta de encuestados provenientes del campo del arte, y por tanto, relacionados con la escultura, pero lamentablemente no se ha podido encuestar a ninguno a tiempo.
+
+\section{Coste del proyecto}
+
+Por un lado, estaría el salario. Se han requerido 93,5 horas reales de desarrollo, a las cuales se suman unas 10 horas de aprendizaje de las herramientas y tecnologías usadas y otros elementos varios, alcanzando las \textbf{103,5 horas}. El sueldo medio de un ingeniero de software en España es de 23.700€ al año\footnote{\url{https://www.glassdoor.es/Sueldos/ingeniero-de-software-junior-sueldo-SRCH_KO0,28.htm}}, lo cual equivale a 1.975€ al mes (si ignoramos pagas extra en el cálculo) y 12'34€ la hora. Dicho sueldo a lo largo de 103,5 horas equivale a \textbf{1.277'19€}.
+
+Por otro lado está el coste del equipo. Para el desarrollo se utilizó un ordenador de sobremesa con una tarjeta gráfica AMD Radeon 6700 XT y un procesador AMD Ryzen 5 5800X3D, el cual junto al resto de componentes y periféricos alcanza los 1.500€. También se utilizó el kit de realidad virtual Valve Index, el cual tiene un precio oficial de 1.079€. El porcentaje de amortización en dispositivos electrónicos es del 25\%\footnote{\url{https://www.holded.com/es/blog/amortizacion-de-equipos-informaticos}}, por lo que los dispositivos usados añaden \textbf{375€} y \textbf{269'75€} respectivamente al coste. 
+
+La suma total del coste del proyecto es, por tanto, de \textbf{1.921'94€}.
+
+\section{Conclusiones}
+
+El objetivo inicial del proyecto ha sido alcanzado. En el capítulo 2 se detalló que la meta a alcanzar era desarrollar una aplicación de realidad virtual en la que se pudiera esculpir como en la vida real, con distintas herramientas y de forma intuitiva e inmersiva, todo esto mientras se mantiene un rendimiento adecuado. Se puede afirmar que esta es una descripción acorde al resultado final del proyecto.
+
+Sin embargo, se han afrontado \textbf{más problemas de lo deseado}, los cuales han causado un resultado no del todo satisfactorio. \textbf{El mayor problema y el más notable fue iniciar el proyecto en Unity}: originalmente, la idea era realizar el proyecto en el motor gráfico Unity. El razonamiento detrás de esta decisión fue la gran cantidad de documentación, información y comunidad que agilizarían la investigación y el desarrollo. Sin embargo, \textbf{Unity carece de funcionalidades como las operaciones booleanas} o cualquiera que se asemeje, siendo lo más cercano el uso de vóxeles, los cuales ya se ha explicado en este documento por qué no sirven en este caso. Sin consciencia de este problema, se siguió el desarrollo en dicho motor gráfico, el cuál además carece de plantilla con funciones básicas como la navegación, por lo que se llegaron a desarrollar todos estos elementos hasta que inevitablemente se llegó al momento en el que se descubrió que \textbf{no se podía seguir el desarrollo}. Durante esta temporada, también hubo problemas técnicos con el visor Meta Quest 2, el cual se estaba usando en el proyecto. Combinando estos factores y algunos impedimentos más, se decidió empezar de cero el desarrollo y mejorar el equipo con el kit de realidad virtual Valve Index, y como consecuencia, algunos elementos que se hubiesen querido añadir como la lija tuvieron que ser descartados.
+
+También ha habido problemas por parte del Unreal Engine. En concreto, el estado experimental de Geometry Script impide crear una aplicación que se pueda ejecutar independientemente del editor mientras dicho plugin está en uso. Esto significa que, por el momento, ChiselVR únicamente se puede usar a través del editor de Unreal Engine, lo cual por supuesto es algo indeseado, pero por lo que desafortunadamente no se puede hacer nada por el momento.
+
+Pese a estos problemas, la conclusión es positiva. El proyecto alcanza su objetivo, y es una muy buena muestra de las posibilidades de Geometry Script y de la realidad virtual, por lo que el desarrollo de ChiselVR acaba con una buena sensación.
+
+\section{Trabajos futuros}
+
+Como es de esperar, ChiselVR es mejorable y ampliable por muchos lados. Como ya se ha mencionado, la adición de más herramientas y opciones sería una de las posibilidades, pero lo más interesante depende de Geometry Script y de su evolución. En concreto, sería interesante revisitar el proyecto cuando este plugin salga de la fase experimental, de forma que se pueda crear la aplicación ejecutable y que, además, sea más estable debido a las optimizaciones por las que haya pasado Geometry Script en ese período de tiempo.
+
+Otra opción interesante que se puede implementar es la gestión de distintas escenas, además de exportarlas a diferentes formatos de objeto 3D. Esto último se planteó durante la fase de planificación, pero Unreal Engine no trae ninguna opción por el estilo ya implementada, y los plugins que traen soluciones a esta función son de pago y con un coste considerable, por lo que la idea se descartó.
+
+Sin embargo, donde más ha despertado interés el desarrollo del proyecto no ha sido en la propia aplicación, si no en el uso de Geometry Script. Es sin duda la tecnología más novedosa usada en todo el proyecto, con relativamente poca discusión e información en internet, por lo que se puede considerar un campo inexplorado. Con esto en mente, ChiselVR podría ser el primero de muchos experimentos para la investigación y la exploración de oportunidades de Geometry Script.

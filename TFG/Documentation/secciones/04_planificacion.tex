@@ -1,0 +1,778 @@
+\chapter{Planificación}
+
+En este capítulo se abarcarán todas las cuestiones relacionadas con la planificación del proyecto: organización previa, metodologías, planificación y control de calidad. Estos factores se detallarán a continuación, empezando por la metodología utilizada.
+
+\section{Metodología utilizada}
+
+El software puede tomar muchas formas. Desde programas sencillos para automatizar una tarea simple, hasta videojuegos con presupuestos multimillonarios o editores de vídeo usados en la producción de películas.  Y conforme crece la escala de un software, la complejidad para gestionar todo crece exponencialmente, junto con la necesidad de hacerlo.
+
+Tradicionalmente, esta gestión del desarrollo se hacía detallando unos objetivos claros y fijos al principio del desarrollo, y de los cuales se esperaba su finalización al final del proyecto. Esto, como cabe esperar, era una aproximación problemática, pues esta visión estática fallaba en predecir la espontaneidad de los problemas que pueden surgir a lo largo del desarrollo. Entran entonces las \textbf{metodologías de desarrollo ágil}, las cuales, como bien su nombre indican, son más versátiles a la hora de encarar los problemas y cambios a lo largo del desarrollo. Existen distintas metodologías ágiles, pero para este proyecto se ha escogido \textbf{SCRUM} \cite{scrum}, una metodología perfecta para equipos pequeños o, como es el caso, individuales.
+
+La metodología SCRUM se compone de distintos elementos, siendo los más relevantes para el proyecto los siguientes:
+
+\begin{itemize}
+    \item \textbf{Backlog del producto}. Una lista priorizada de todas las funcionalidades, requisitos y cambios potenciales en el producto.
+    \item \textbf{Sprint}. Es un período de tiempo fijo (de una semana en este proyecto) durante el cual se desarrolla un incremento de producto potencialmente entregable.
+    \item \textbf{Backlog del sprint}. Una selección de elementos del backlog del producto que se comprometen a desarrollar en el sprint actual.
+    \item \textbf{Incremento}. El conjunto de elementos del backlog del producto completados durante el sprint y que están listos para su entrega.
+\end{itemize}
+
+En este proyecto se han omitido los diferentes tipos de reuniones que también forman parte de la metodología SCRUM debido a la ausencia de un equipo con múltiples desarrolladores, en cambio se han realizado actualizaciones periódicas con el tutor para discutir el estado actual y futuro del proyecto (sustituyendo así el Scrum Diario, una reunión diaria corta donde los miembros del equipo comparten lo que hicieron el día anterior, lo que planean hacer ese día y si enfrentan algún obstáculo).
+
+\section{Historias de usuario}
+
+Para la descripción de los requisitos que debe cumplir ChiselVR, se ha empleado el método de historias de usuario, las cuales consisten en descripciones breves y simples de funcionalidades específicas que el producto debe proporcionar desde la perspectiva del usuario final. Se han redactado durante el primer sprint del desarrollo, y es de donde surgen las tareas que posteriormente se gestionarán en el desarrollo.
+
+La redacción de las historias de usuario requiere la creación de uno o varios perfiles que reflejen los tipos de usuarios que usarán la aplicación. En este caso, se distingue un único perfil de usuario: aquel del consumidor medio de realidad virtual, el cual busca contenido que solo pueda experimentar con controles por movimiento y un visor en la cabeza. Este usuario no tiene por qué tener más conocimiento técnico que el de navegar por los menús de su sistema de realidad virtual, y podría incluso no tenerlos y ser simplemente el invitado de aquel que sí los tiene y le está enseñando cómo es la realidad virtual.
+
+También se ha planteado la inclusión del usuario creador de contenido, sin embargo, como ya se ha discutido anteriormente, la naturaleza de este proyecto es más cercana al simulador que al editor gráfico, por lo que no existe razón lógica por la que un usuario de este tipo optaría por ChiselVR para su objetivo.
+
+A partir del perfil de usuario definido se obtendrán los \textit{customer journeys}, los cuales describen el proceso que lleva a un hipotético usuario (el cual entra dentro de los perfiles que se hayan detallado anteriormente) a interactuar con el producto. Su objetivo es, al ponerse en los pies del usuario final, entender mejor las necesidades de este y reflejarlas en las historias de usuario. Los \textit{journeys} ideados son los siguientes:
+
+\begin{itemize}
+    \item \textbf{J-1, Óscar Llorens}. Joven de 21 años aficionado de la tecnología. Se compró recientemente el kit de realidad virtual Meta Quest 2, y está buscando aplicaciones de todo tipo para estrenarlas. En su búsqueda, entra en la sección \textit{Engage your palette} de la tienda online, donde se encuentran todas las aplicaciones sobre creatividad. Añade unas cuantas a la lista de deseados, entre ellas SculptrVR y ChiselVR, con las que espera experimentar el proceso de esculpir una piedra. Primero usa SculptrVR, pero ve que no es lo que esperaba. Después, abre ChiselVR y descubre que, esta vez sí, puede esculpir golpeando la pieza, eliminando el material poco a poco. Al ver lo relajante y directo que es el funcionamiento de la aplicación, decide que será una de las aplicaciones que enseñará a sus padres cuando vaya a mostrarles cómo es la realidad virtual.
+    \item \textbf{J-2, César Manchón}. Hombre de 46 años, emprendedor interesado en realidad virtual como sector de negocio. Cada cierto tiempo, investiga sobre aplicaciones recién lanzadas para ver cuáles tienen potencial. Entre estas ve ChiselVR, y como César también es aficionado del arte, decide echarle un ojo. Al crear una nueva escena y probar un rato el martillo y el cincel, ve que la premisa tiene potencial, pero se pregunta si tiene algo más. Al pulsar el botón del menú, descubre que tiene otra herramienta más, una sierra radial, y que funciona exactamente como esperaba. Cuando acaba de usarla, ve que por ahora ya no hay más herramientas, pero se pone a pensar en las posibilidades que hay si sigue el desarrollo. Interesado, decide mantener un ojo en la aplicación para posibles futuras actualizaciones.
+    \item \textbf{J-3, Ana Torrecilla}. Mujer de 57 años, madre de Óscar Llorens. Ana no toca muchos aparatos electrónicos más allá de su teléfono y el ordenador que usa para el trabajo, pero su hijo insiste en enseñarle la realidad virtual. La primera aplicación que le muestra es ChiselVR. Nada más ponerse el visor, se ve a sí misma con un cincel y un martillo en las manos, y con un bloque delante. Hace el gesto de esculpir, y se alegra al ver que funciona, pero se siente algo molesta: Ana es zurda, y en la posición actual en la que tiene las manos se le hace incómodo. Óscar le dice que se mantenga quieta un segundo, y procede a darle al menú por ella. Después le pregunta a su madre si ve la opción de cambiar manos, y que si la ve que le apunte y la seleccione. Ana le da, y ahora cada herramienta está en la mano contraria a la que estaba antes, con lo que procede a estar unos minutos jugando con el mármol hasta que se cansa.
+\end{itemize}
+
+Una vez descritos los \textit{costumer journeys}, se obtiene un mayor entendimiento de las necesidades de los usuarios, por lo que nos es posible desarrollar las historias de usuario. Estas se compondrán de nombre, descripción, estimación en horas del tiempo necesario para cumplirlas, prioridad, dependencias a otras historias de usuario y pruebas de aceptación.
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			CH-1 & \multicolumn{2}{c}{Escena navegable} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{Como usuario quiero poder iniciar una escena por la que puedo moverme en realidad virtual.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 5 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & ALTA \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & - \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - Se puede entrar en la escena y moverse por ella.} \\
+            \multicolumn{3}{p{12cm}}{ - No se puede navegar por terreno ocupado por otros objetos.} \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Escena navegable}
+	\label{tab:hu_escena_navegable}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			CH-2 & \multicolumn{2}{c}{Bloque de mármol} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{Como usuario quiero disponer de un bloque con el que interactuar de distintas formas para poder modificarlo.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 10 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & ALTA \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & - \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - El bloque detecta la colisión y solapamiento de otros elementos de la escena.} \\
+            \multicolumn{3}{p{12cm}}{ - Al aplicar operaciones booleanas sobre el bloque, este se modifica y adapta correctamente su malla de colisiones.} \\ \hline
+		\end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Bloque de mármol}
+	\label{tab:hu_bloque_de_marmol}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			CH-3 & \multicolumn{2}{c}{Manos físicas} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{Como usuario quiero apoyar mis herramientas en el bloque de mármol para usarlas correctamente.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 7 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & ALTA \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & - \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - Las herramientas que lleve el usuario siguen la posición de las manos en todo momento.} \\ 
+			\multicolumn{3}{p{12cm}}{ - La única excepción es cuando las manos atraviesen un objeto sólido virtual, en cuyo caso la herramienta que lleve en la mano que atraviese quedará chocando contra la superficie del objeto. } \\ \hline
+        \end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Manos físicas}
+	\label{tab:hu_manos_fisicas}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			CH-4.1 & \multicolumn{2}{c}{Herramienta: Martillo y cincel} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{Como usuario quiero disponer de martillo y cincel como herramientas, de tal forma que pueda modificar el bloque de mármol al golpearlo.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 10 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & ALTA \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & CH-2, CH-3 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - Al usar el martillo y el cincel de forma realista, se elimina material del bloque de mármol.} \\
+			\multicolumn{3}{p{12cm}}{ - Únicamente se elimina material si la punta del cincel está sobre el bloque y el martillo golpea la parte trasera del cincel con suficiente fuerza.} \\
+            \multicolumn{3}{p{12cm}}{ - Se elimina material únicamente en el punto exacto donde se ha realizado el golpe y con el ángulo de este.} \\
+            \multicolumn{3}{p{12cm}}{ - El tamaño del trozo eliminado depende de la fuerza del golpe.} \\ \hline
+        \end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Herramienta: Martillo y cincel}
+	\label{tab:hu_martillo_y_cincel}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			CH-4.2 & \multicolumn{2}{c}{Herramienta: Sierra radial} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{Como usuario quiero disponer de sierra radial para eliminar el material inicial de forma más rápida.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 5 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & MEDIA \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & CH-2, CH-3 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - La sierra radial solo puede cortar el material cuando el gatillo está pulsado.} \\ 
+			\multicolumn{3}{p{12cm}}{ - El disco de la sierra choca contra el bloque cuando no se pulsa el gatillo. } \\ 
+            \multicolumn{3}{p{12cm}}{ - La sierra solo puede cortar en planos rectos, es decir, donde los bordes del disco causan fricción.} \\ \hline
+        \end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Herramienta: Sierra radial}
+	\label{tab:hu_sierra_radial}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			CH-4.3 & \multicolumn{2}{c}{Herramienta: Lija} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{Como usuario quiero disponer de lija para suavizar los contornos de la escultura.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 5 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & BAJA \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & CH-2, CH-3 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - La lija únicamente actúa cuando roza continuamente contra el bloque.} \\ 
+			\multicolumn{3}{p{12cm}}{ - El suavizado solo se realiza en la zona donde la lija está rozando. } \\ 
+            \multicolumn{3}{p{12cm}}{ - El suavizado se realiza a un ritmo gradual y constante.} \\ \hline
+        \end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Herramienta: Lija}
+	\label{tab:hu_lija}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			CH-5 & \multicolumn{2}{c}{Menú de opciones} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{Como usuario quiero poder acceder a una serie de opciones con tan solo pulsar a un botón.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 3 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & ALTA \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & - \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - El menú se abre al pulsar el botón y todos los botones funcionan correctamente.} \\ 
+			\multicolumn{3}{p{12cm}}{ - El menú se puede navegar sin problema tanto apuntando como con joystick. } \\ \hline
+        \end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Menú de opciones}
+	\label{tab:hu_menu_de_opciones}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			CH-6 & \multicolumn{2}{c}{Opción: Cambio de herramienta} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{Como usuario quiero poder cambiar de una herramienta a otra libremente.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 3 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & ALTA \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & CH-4, CH-5 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - Todas las herramientas se pueden seleccionar en cualquier momento.} \\ 
+			\multicolumn{3}{p{12cm}}{ - La única excepción es la herramienta actualmente en uso, que saldrá en gris para denotar que no se puede seleccionar. } \\ 
+            \multicolumn{3}{p{12cm}}{ - Al cambiar de herramienta, esta aparece directamente en las manos.} \\ \hline
+        \end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Opción: Cambio de herramienta}
+	\label{tab:hu_cambio_de_herramienta}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			CH-7 & \multicolumn{2}{c}{Opción: Cambio de manos} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{Como usuario zurdo quiero poder cambiar en qué mano tengo cada herramienta para poder esculpir con más precisión y comodidad.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 3 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & BAJA \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & CH-4, CH-5 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - La/s herramienta/s se encuentran en la/s mano/s contraria/s a donde estaba/n previamente.} \\ 
+			\multicolumn{3}{p{12cm}}{ - El funcionamiento de la herramienta en uso sigue siendo el correcto. } \\ 
+            \multicolumn{3}{p{12cm}}{ - Al cambiar de una herramienta a otra, la selección zurdo/diestro queda recordada.} \\ 
+            \multicolumn{3}{p{12cm}}{ - El botón en el menú solo sale seleccionable cuando se lleva en las manos una herramienta intercambiable (la sierra radial es un ejemplo de herramienta no intercambiable). } \\ \hline
+        \end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Opción: Cambio de manos}
+	\label{tab:hu_cambio_de_manos}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			CH-8 & \multicolumn{2}{c}{Opción: Salir de la aplicación} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{Como usuario quiero poder salir de la aplicación sin tener que cerrarla de forma forzosa.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 1 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & BAJA \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & CH-5 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - Al pulsar la opción, la aplicación se cierra correctamente.} \\ \hline
+        \end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Opción: Salir de la aplicación}
+	\label{tab:hu_salir_de_la_aplicacion}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			CH-9 & \multicolumn{2}{c}{Opción: Reiniciar escena} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{Como usuario quiero poder reiniciar la escena para empezar de cero con mi escultura.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 2 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & BAJA \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & CH-5 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - Al pulsar la opción, el estado de la aplicación vuelve a su estado inicial.} \\ \hline
+        \end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Opción: Reiniciar escena}
+	\label{tab:hu_reiniciar_escena}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			CH-10 & \multicolumn{2}{c}{Entorno inmersivo} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Descripción} \\ \hline
+			\multicolumn{3}{p{12cm}}{Como usuario quiero que la aplicación consiga inmergirme de todas las formas posibles actualmente: visual, sonora y háptica} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Estimación} & 10 \\ \hline
+			\multicolumn{2}{l|}{Prioridad} & ALTA \\ \hline
+			\multicolumn{2}{l|}{Dependencias} & CH-4 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{l}{Pruebas de aceptación} \\ \hline
+			\multicolumn{3}{p{12cm}}{ - El bloque tiene aspecto de mármol.} \\
+			\multicolumn{3}{p{12cm}}{ - Si un trozo de mármol queda flotando, este cae al suelo de forma realista.} \\
+			\multicolumn{3}{p{12cm}}{ - Las distintas herramientas suenan y vibran de forma realista y acorde a la forma en la que se usan.} \\ \hline
+        \end{tabular}
+	\end{center}
+	\caption{Historia de usuario - Entorno inmersivo}
+	\label{tab:hu_entorno_inmersivo}
+\end{table}
+
+\section{Organización de los sprints}
+
+Una vez obtenidas las historias de usuario y, con estas, comprendidos los requisitos que debe cumplir la aplicación, se procede a organizar el desarrollo. Como se ha mencionado antes, este proyecto usa metodología SCRUM y por tanto se organiza por sprints, los cuales son de una semana en este caso (comúnmente son de dos semanas, pero por problemas en el desarrollo y motivos personales, ha sido necesario acelerar el proceso). La organización de los sprints es la siguiente:
+
+\subsection{Sprint 0}
+
+\subsubsection*{Semana 12/6 - 18/6}
+
+Este sprint sirvió como preparación para el desarrollo en sí, ya que es precisamente donde se decidió el número de sprints y su duración, además de redactar los \textit{journeys} e historias de usuario previamente descritas. También se sintetizó un backlog del producto a partir de las historias de usuario, las tareas del cual se verán desglosadas en las secciones de los sprints en los que fueron realizadas.
+
+Durante este sprint también se decidieron las tecnologías que se utilizarían para el desarrollo del proyecto, a excepción de Unreal Engine 5 y Geometry Script, las cuales ya estaban decididas antes siquiera de empezar a planificar. Para la gestión y planificación del proyecto se contempló el uso de alguna herramienta específica para esta tarea, pero por la poca experiencia con estas junto con la relativamente pequeña envergadura del proyecto, se optó por usar Google Sheets para realizar un tablón de seguimiento sencillo y anotar distintos comentarios y recordatorios sobre el desarrollo. Para la gestión de versiones se usó Git y GitHub, la herramienta más extendida para este tipo de tareas y con la que más experiencia previa contaba. Fue necesaria la creación de un archivo \textit{.gitignore} correctamente gestionado debido al tipo de proyecto: los motores gráficos crean una considerable cantidad de archivos compilados, temporales y de registro que son indeseados en la gestión de versiones y por tanto deben ser ignorados.
+
+Aunque no se realizó seguimiento, se estima que el trabajo de este sprint se realizó a lo largo de \textbf{10 horas}.
+
+\subsection{Sprint 1}
+
+\subsubsection*{Semana 19/6 - 25/6}
+
+Este sprint se utilizó para la familiarización y experimentación con el motor gráfico y el plugin Geometry Script. Con este fin, se tomaron las historias de usuario CH-1 y CH-2, con las cuales se aspiraba a conseguir una demostración de uso de Geometry Script, de la cual partir para el desarrollo posterior. El tiempo estimado fue de \textbf{15 horas}, mientras que el real fue de \textbf{22 horas}.
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-1} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Configuración y puesta a punto del motor gráfico y el proyecto.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 1H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 3H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-1 \\ \noalign{\hrule height 1pt}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-2} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Localización, organización y comprensión de los Blueprints implementados por la plantilla.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 2H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 2H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-1 \\ \noalign{\hrule height 1pt}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-3} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Implementar la navegación por el entorno.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 2H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 0,5H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-1 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Comentario: La plantilla ya tenía la locomoción implementada.}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-4} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Creación del tipo de objeto Bloque, en base a Dynamic Mesh.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 2H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 2,5H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-2 \\ \noalign{\hrule height 1pt}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-5} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Configuración de la colisión del objeto Bloque.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 1,5H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 2H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-2 \\ \noalign{\hrule height 1pt}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-6} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Configuración de los disparadores por colisión.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 1,5H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 1,5H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-2 \\ \noalign{\hrule height 1pt}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-7} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Aplicación de las operaciones booleanas al objeto Bloque.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 4H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 6,5H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-2 \\ \noalign{\hrule height 1pt}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-8} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Aplicar las operaciones booleanas en el lugar de colisión con el bloque.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 1H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 4H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-2 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Comentario: Surgieron problemas que se comentarán en el capítulo de Implementación.}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\subsection{Sprint 2}
+
+\subsubsection*{Semana 26/6 - 2/7}
+
+Una vez abarcado y comprendido el funcionamiento de Geometry Script, se inició el desarrollo de la interacción deseada del usuario con la aplicación. Esta interacción requiere que las manos del usuario tengan un peso y una presencia reales dentro de la simulación, lo cual difiere del funcionamiento por defecto: las manos virtuales atraviesan cualquier objeto. Por experiencia con otros motores gráficos, se sabía de antemano que conseguir esto puede requerir bastante tiempo, por lo que se reservó suficiente tiempo para su realización.
+
+Para el desarrollo de este sprint se tomaron las historias de usuario CH-3 y CH-4.1, que en total suman \textbf{17 horas estimadas}. Se realizaron \textbf{19,5 horas en total}, y una de las tareas quedó sin acabar y se dejó para reestimar y completar en el sprint 3.
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-9} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Aplicar simulación de físicas a las manos virtuales.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 2H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 3H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-3 \\ \noalign{\hrule height 1pt}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-10} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Conseguir que las manos con simulación de físicas sigan la traslación y rotación de las manos reales.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 3H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 4H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-3 \\ \noalign{\hrule height 1pt}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-11} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Gestionar las colisiones de las manos.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 2H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 1,5H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-3 \\ \noalign{\hrule height 1pt}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-12} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Modelado de las herramientas.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 1H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 1H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-4.1 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Comentario: Se usó este paquete de assets del mercado oficial de Unreal Engine\footnotemark{}.}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\footnotetext{\url{https://marketplace-website-node-launcher-prod.ol.epicgames.com/ue/marketplace/en-US/product/tool-pack-01}}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-13} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Ajustado de las herramientas a las manos.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 1H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 1H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-4.1 \\ \noalign{\hrule height 1pt}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-14} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Gestión y reconocimiento de cuándo golpea el martillo al cincel.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 2H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 2H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-4.1 \\ \noalign{\hrule height 1pt}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-15} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Aplicar operación booleana en el bloque cuando el cincel está en contacto con este y el martillo le golpea.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 3H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 6H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-4.1 \\ \noalign{\hrule height 1pt}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-16} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Ajustar forma y tamaño de la operación booleana dependiendo de cómo se realice el golpe.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 3H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 1H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-4.1 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Comentario: No acabada.}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\subsection{Sprint 3}
+
+\subsubsection*{Semana 3/7 - 9/7}
+
+La conclusión del sprint 2 fue clara: el uso del martillo y cincel es probablemente la característica más interesante de ChiselVR, y aunque ya de por sí necesitaba más horas de desarrollo de las esperadas, fue necesario perfeccionar más su funcionamiento. Con esto en mente, se añadieron tareas más específicas para la finalización de la historia de usuario CH-4.1. Esto, junto a algunas tareas relacionadas con el menú de opciones, fue en lo que se centró el sprint 3.
+
+Se añadieron tareas relacionadas con la historia de usuario CH-4.1, con un total de 7 horas estimadas, y se empezó con el desarrollo del menú de opciones con las historias de usuario CH-5 y CH-7. En total, el sprint 3 sumó 13 horas estimadas, las cuales resultaron en 12,5 horas reales. Debido al desconocimiento de que la plantilla de realidad virtual de Unreal Engine 5 incluye un menú de opciones ya implementado, la tarea CH-5 se acabó antes de lo esperado. Para compensar, se añadieron dos tareas extra (Historias de usuario CH-8 y CH-9) con el valor estimado de 3 horas, que acabaron realizandose en una hora real por razones parecidas al caso anterior. Esto suma al final \textbf{13,5 horas reales} resultantes de \textbf{16 horas estimadas}.
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-17} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Trasladar el código en relación a las operaciones booleanas del Blueprint de Bloque al Blueprint de Jugador.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 2H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 2H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-4.1 \\ \noalign{\hrule height 1pt}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-16 [CONT.]} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Ajustar forma y tamaño de la operación booleana dependiendo de cómo se realice el golpe.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 3H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 3H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-4.1 \\ \noalign{\hrule height 1pt}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-18} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Ajustar la constancia en la que las operaciones se realizan de forma correcta y solo cuando se desea.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 2H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 3H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-4.1 \\ \noalign{\hrule height 1pt}
+        \end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-19} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Añadir menú de opciones que se despliegue con pulsar un botón.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 3H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 0,5H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-5 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Comentario: Menú ya implementado en la plantilla. Solo fue necesario hacer los ajustes y retoques pertinentes.}
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-20} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Implementar y añadir opción de cambio de manos.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 3H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 4H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-7 \\ \noalign{\hrule height 1pt}
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-21} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Implementar y añadir opción de salir de la aplicación.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 1H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 0,5H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-8 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Comentario: Tarea añadida para aprovechar tiempo sobrante en el sprint.}
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-22} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Implementar y añadir opción de reiniciar escena.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 2H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 0,5H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-9 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Comentario: Tarea añadida para aprovechar tiempo sobrante en el sprint.}
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\subsection{Sprint 4}
+
+\subsubsection*{Semana 10/7 - 16/7}
+
+En este punto, con el martillo y cincel ya perfectamente implementados, se podía observar que la inclusión de más herramientas no era tan relevante como trabajar en la inmersión que, como ya se ha discutido en el capítulo 3, es algo necesario para alcanzar unos estándares de calidad en la realidad virtual. Con este objetivo, se empezó a abarcar la historia de usuario CH-10 con uno de sus aspectos más complejos de desarrollar pero a la vez el más importante: cómo tratar aquellos trozos del bloque de mármol que quedan flotando en el aire después de un golpe.
+
+En este sprint se empezaron a realizar tareas relativas a la historia de usuario CH-10 y se iniciaron y completaron las historias de usuario CH-4.2 y CH-6. En total, las tareas sumaron \textbf{14 horas estimadas}, que resultaron en \textbf{21 horas reales}.
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-23} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Acceder a los diferentes trozos del bloque que quedan separados después de una operación booleana de forma independiente.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 4H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 6H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-10 \\ \noalign{\hrule height 1pt}
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-23} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Discernir entre aquello que se sigue considerando bloque y restos, y actuar sobre los segundos.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 2H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 3H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-10 \\ \noalign{\hrule height 1pt}
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-24} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Modelado de la sierra radial.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 1H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 1H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-4.2 \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Comentario: Se usó este modelo\footnotemark{}.}
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\footnotetext{\url{https://sketchfab.com/3d-models/angle-grinder-408ee904217c4a42924bd0ca69c01794}}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-25} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Ajustar colisiones y manejo de la sierra radial.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 2H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 5H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-4.2 \\ \noalign{\hrule height 1pt}
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-26} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Ajustar operaciones booleanas de la sierra radial.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 2H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 2H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-4.2 \\ \noalign{\hrule height 1pt}
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-27} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Gestionar cambio a sierra radial.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 1,5H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 3H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-6 \\ \noalign{\hrule height 1pt}
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-28} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Gestionar cambio a martillo y cincel.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 1,5H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 1H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-6 \\ \noalign{\hrule height 1pt}
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\subsection{Sprint 5}
+
+\subsubsection*{Semana 17/7 - 23/7}
+
+En la última semana, únicamente quedaban dos historias de usuario por completar: CH-4.3 (Herramienta: Cincel) y CH-10 (Entorno inmersivo). Al final, se optó por no implementar el cincel y, en su lugar, se realizó una encuesta a usuarios la cual se fue realizando durante las semanas posteriores dando a probar el resultado final a distintos tipos de personas. Los datos extraídos de esta encuesta se discutirán en el capítulo 6.
+
+Este sprint abarca lo que queda de la historia de usuario CH-10 y se le suma una tarea extra para atar cabos y dar el producto por terminado. En total, suman \textbf{6 horas estimadas}, que resultaron en \textbf{7,5 horas reales}.
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-29} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Añadir efectos de sonido a la aplicación.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 1,5H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 2H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-10 \\ \noalign{\hrule height 1pt}
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-30} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Añadir respuesta háptica (vibración) a la aplicación.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 1,5H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 1,5H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-10 \\ \noalign{\hrule height 1pt}
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-31} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Crear el material para el objeto Bloque y trabajar en la presentación de la escena navegable.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 1H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 2H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & CH-10 \\ \noalign{\hrule height 1pt}
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular} {l|c|l}
+			\hline
+			\multicolumn{2}{c}{TCH-32} \\ \noalign{\hrule height 1pt}
+			\multicolumn{3}{p{12cm}}{Eliminar archivos sobrantes, organizar archivos usados y empaquetar el proyecto.} \\ \noalign{\hrule height 1pt}
+			\multicolumn{2}{l|}{Tiempo estimado} & 2H \\ \hline
+			\multicolumn{2}{l|}{Tiempo real} & 2H \\ \hline
+			\multicolumn{2}{l|}{HU Asociada} & EXTRA \\ \noalign{\hrule height 1pt}
+		\end{tabular}
+	\end{center}
+\end{table}
